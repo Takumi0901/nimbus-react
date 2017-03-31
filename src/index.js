@@ -4,5 +4,4 @@ import AlertStrongText from './component/AlertStrongText.js'
 export {
   Alert,
   AlertStrongText
-
 }

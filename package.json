@@ -4,14 +4,13 @@
   "description": "",
   "main": "./public/index.js",
   "scripts": {
-    "build": "npm run clean:p && npm run build:babel & npm run build:css && npm run clean",
-    "build:babel": "npm run clean:p && ./node_modules/.bin/babel ./src --out-dir ./public",
-    "build:css": "postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css",
+    "build": "npm run build:babel & npm run build:css",
+    "build:babel": "npm run clean && ./node_modules/.bin/babel ./src --out-dir ./public",
+    "build:css": "npm run clean && postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css",
     "start": "npm run watch:babel & npm run watch:css",
-    "watch:babel": "npm run clean:p && ./node_modules/.bin/babel ./src --out-dir ./public -w",
-    "watch:css": "npm run clean:p && postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w",
-    "clean": "rimraf ./clean",
-    "clean:p": "rimraf ./public"
+    "watch:babel": "npm run clean && ./node_modules/.bin/babel ./src --out-dir ./public -w",
+    "watch:css": "npm run clean && postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w",
+    "clean": "rimraf ./public"
   },
   "repository": {
     "type": "git",

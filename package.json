@@ -4,12 +4,14 @@
   "description": "",
   "main": "./public/index.js",
   "scripts": {
-    "build": "npm run build:babel & npm run build:css",
-    "build:babel": "./node_modules/.bin/babel ./src --out-dir ./public",
+    "build": "npm run clean:p && npm run build:babel & npm run build:css && npm run clean",
+    "build:babel": "npm run clean:p && ./node_modules/.bin/babel ./src --out-dir ./public",
     "build:css": "postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css",
     "start": "npm run watch:babel & npm run watch:css",
-    "watch:babel": "./node_modules/.bin/babel ./src --out-dir ./public -w",
-    "watch:css": "postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w"
+    "watch:babel": "npm run clean:p && ./node_modules/.bin/babel ./src --out-dir ./public -w",
+    "watch:css": "npm run clean:p && postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w",
+    "clean": "rimraf ./clean",
+    "clean:p": "rimraf ./public"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,8 @@
     "postcss-cli": "^3.0.0",
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^8.2.0",
-    "postcss-nested": "^1.0.0"
+    "postcss-nested": "^1.0.0",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "react": "^15.3.0",

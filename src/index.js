@@ -1,7 +1,8 @@
-import HelloWorld from './component/HelloWorld.js'
-import Header from './component/Header.js'
+import Alert from './component/Alert.js'
+import AlertStrongText from './component/AlertStrongText.js'
 
 export {
-  HelloWorld,
-  Header
+  Alert,
+  AlertStrongText
+
 }

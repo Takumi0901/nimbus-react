@@ -22,27 +22,27 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Alert = function (_Component) {
-  _inherits(Alert, _Component);
+var Avatar = function (_Component) {
+  _inherits(Avatar, _Component);
 
-  function Alert() {
-    _classCallCheck(this, Alert);
+  function Avatar() {
+    _classCallCheck(this, Avatar);
 
-    return _possibleConstructorReturn(this, (Alert.__proto__ || Object.getPrototypeOf(Alert)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Avatar.__proto__ || Object.getPrototypeOf(Avatar)).apply(this, arguments));
   }
 
-  _createClass(Alert, [{
+  _createClass(Avatar, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: (0, _classnames2.default)("c-alert", this.props.classes) },
+        { className: (0, _classnames2.default)('c-avatar', this.props.size && 'c-avatar--' + this.props.size, this.props.classes) },
         this.props.children
       );
     }
   }]);
 
-  return Alert;
+  return Avatar;
 }(_react.Component);
 
-exports.default = Alert;
+exports.default = Avatar;

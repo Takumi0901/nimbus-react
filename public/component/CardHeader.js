@@ -22,27 +22,27 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Alert = function (_Component) {
-  _inherits(Alert, _Component);
+var CardHeader = function (_Component) {
+  _inherits(CardHeader, _Component);
 
-  function Alert() {
-    _classCallCheck(this, Alert);
+  function CardHeader() {
+    _classCallCheck(this, CardHeader);
 
-    return _possibleConstructorReturn(this, (Alert.__proto__ || Object.getPrototypeOf(Alert)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (CardHeader.__proto__ || Object.getPrototypeOf(CardHeader)).apply(this, arguments));
   }
 
-  _createClass(Alert, [{
+  _createClass(CardHeader, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: (0, _classnames2.default)("c-alert", this.props.classes) },
+        { className: (0, _classnames2.default)("c-card__header", this.props.classes) },
         this.props.children
       );
     }
   }]);
 
-  return Alert;
+  return CardHeader;
 }(_react.Component);
 
-exports.default = Alert;
+exports.default = CardHeader;

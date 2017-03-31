@@ -22,27 +22,31 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Alert = function (_Component) {
-  _inherits(Alert, _Component);
+var Bar = function (_Component) {
+  _inherits(Bar, _Component);
 
-  function Alert() {
-    _classCallCheck(this, Alert);
+  function Bar() {
+    _classCallCheck(this, Bar);
 
-    return _possibleConstructorReturn(this, (Alert.__proto__ || Object.getPrototypeOf(Alert)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Bar.__proto__ || Object.getPrototypeOf(Bar)).apply(this, arguments));
   }
 
-  _createClass(Alert, [{
+  _createClass(Bar, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: (0, _classnames2.default)("c-alert", this.props.classes) },
-        this.props.children
+        { className: (0, _classnames2.default)('c-bar', this.props.shadow && 'c-bar--shadow-' + this.props.shadow, this.props.size && 'c-bar--' + this.props.size, this.props.color && 'c-bar--' + this.props.color, this.props.fixed && 'c-bar--fixed-' + this.props.fixed, this.props.classes) },
+        _react2.default.createElement(
+          'div',
+          { className: 'c-bar__inner' },
+          this.props.children
+        )
       );
     }
   }]);
 
-  return Alert;
+  return Bar;
 }(_react.Component);
 
-exports.default = Alert;
+exports.default = Bar;

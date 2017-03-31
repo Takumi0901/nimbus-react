@@ -1,0 +1,133 @@
+/* Base
+--------------------------------------------------------- */
+html {
+  background: var(--baseColor);
+  font-size: var(--baseFontSize);
+}
+
+body {
+  height: 100%;
+  font-size: var(--fontSizeDefault);
+  color: var(--fontColorDefault);
+  background: var(--baseColor);
+  word-wrap: break-word;
+  font-family: var(--baseFontFamily);
+  line-height: var(--baseLineHeight);
+  -webkit-text-size-adjust: 100%;
+}
+a {
+  cursor: pointer;
+  color: var(--baseColorLink);
+  
+  &:link,
+  &:visited {
+    color: var(--baseColorLink);
+    text-decoration: underline;
+  }
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  font-weight: 400;
+  margin: 0 0 calc(var(--baseMargin) * 2);
+  color: var(--fontColorDark);
+  
+  & img {
+    vertical-align: baseline;
+  }
+}
+
+
+h1 {
+  font-size: var(--fontSizeH1);
+}
+
+h2 {
+  font-size: var(--fontSizeH2);
+}
+
+h3 {
+  font-size: var(--fontSizeH3);
+}
+
+h4 {
+  font-size: var(--fontSizeH4);
+}
+
+h5 {
+  font-size: var(--fontSizeH5);
+}
+
+h6 {
+  font-size: var(--fontSizeH6);
+}
+
+p,
+address,
+dl {
+  margin: 0 0 calc(var(--baseMargin) * 2);
+}
+
+dt {
+  font-size: var(--fontSizeH5);
+  color: var(--fontColorDark);
+  margin: 0 0 calc(var(--baseMargin));
+}
+
+dd {
+  margin: 0 0 calc(var(--baseMargin) * 2);
+}
+
+dd:first-child {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0 0 calc(var(--baseMargin) * 2);
+  padding: 0 0 0 calc(var(--baseMargin) * 2);
+}
+
+table {
+  width: 100%;
+  border-bottom: solid 1px var(--colorDefaultLigten2);
+  border-top: solid 1px var(--colorDefaultLigten2);
+
+  & td,
+  & th {
+    text-align: left;
+    padding: calc(var(--baseMargin) * 2);
+    font-size: 12px;
+  }
+
+  & th{
+    color: var(--colorDefaultDarken2);
+  }
+
+  & thead {
+    border-bottom: solid 1px var(--colorDefaultLigten2);
+  }
+
+  & tbody tr {
+    border-bottom: solid 1px var(--colorDefaultLigten2);
+  }
+
+  & tr:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (--viewportPc) {
+  a:hover img {
+    opacity: .7;
+  }
+}

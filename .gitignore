@@ -1,1 +1,8 @@
 .idea/
+node_modules/
+./docs/node_modules/
+./docs/public/
+.DS_Store
+docs/.DS_Store
+src/.DS_Store
+src/styles/.DS_Store

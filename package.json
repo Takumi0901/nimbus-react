@@ -1,0 +1,36 @@
+{
+  "name": "renimbus",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./public/index.js",
+  "scripts": {
+    "build": "npm run build:babel & npm run build:css",
+    "build:babel": "./node_modules/.bin/babel ./src --out-dir ./public",
+    "build:css": "postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css",
+    "start": "npm run watch:babel & npm run watch:css",
+    "watch:babel": "./node_modules/.bin/babel ./src --out-dir ./public -w",
+    "watch:css": "postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takumi0901/renimbus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "cssnano": "^3.8.1",
+    "postcss-cli": "^3.0.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^8.2.0",
+    "postcss-nested": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "local-plugins": true,
+  "map": true,
+  "postcss-cssnext": {
+    "warnForDuplicates": false
+  }
+}

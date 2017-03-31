@@ -1,0 +1,55 @@
+.c-hero {
+  margin: 0 0 calc(var(--baseMargin) * 4);
+  position: relative;
+  color: var(--colorWhite);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+
+  &--basic {
+    background: linear-gradient(270deg, var(--colorPrimary), var(--colorSecondary));
+    background-size: 400% 400%;
+    position: relative;
+  }
+
+  &--anim {
+    animation: bgAnimation 30s ease infinite;
+  }
+
+  &--image {
+    background-size: 180%;
+    height: 300px;
+    background-position: 0 bottom;
+  }
+
+  &--mt-large {
+    margin-top: var(--largeHeight);
+  }
+
+  &--mt-middle {
+    margin-top: var(--middleHeight);
+  }
+
+  &--mt-small {
+    margin-top: var(--smallHeight);
+  }
+}
+
+.c-hero__inner {
+  padding: calc(var(--baseMargin) * 4) calc(var(--baseMargin) * 2);
+  min-height: 200px;
+  width: 100%;
+}
+
+@media (--viewportPc) {
+  .c-hero--image {
+    background-size: 120%;
+    height: 400px;
+  }
+
+  .c-hero__inner {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+  }
+}

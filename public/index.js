@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.NavItem = exports.Nav = exports.MenuItem = exports.Menu = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
+exports.Text = exports.Table = exports.NavItem = exports.Nav = exports.MenuItem = exports.Menu = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
 
 var _Alert = require('./component/Alert.js');
 
@@ -93,6 +93,14 @@ var _NavItem = require('./component/NavItem.js');
 
 var _NavItem2 = _interopRequireDefault(_NavItem);
 
+var _Table = require('./component/Table.js');
+
+var _Table2 = _interopRequireDefault(_Table);
+
+var _Text = require('./component/Text.js');
+
+var _Text2 = _interopRequireDefault(_Text);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.Alert = _Alert2.default;
@@ -117,3 +125,5 @@ exports.Menu = _Menu2.default;
 exports.MenuItem = _MenuItem2.default;
 exports.Nav = _Nav2.default;
 exports.NavItem = _NavItem2.default;
+exports.Table = _Table2.default;
+exports.Text = _Text2.default;

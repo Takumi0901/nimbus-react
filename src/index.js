@@ -20,6 +20,8 @@ import Menu from './component/Menu.js'
 import MenuItem from './component/MenuItem.js'
 import Nav from './component/Nav.js'
 import NavItem from './component/NavItem.js'
+import Table from './component/Table.js'
+import Text from './component/Text.js'
 
 export {
   Alert,
@@ -43,5 +45,7 @@ export {
   Menu,
   MenuItem,
   Nav,
-  NavItem
+  NavItem ,
+  Table,
+  Text
 }

@@ -15,6 +15,9 @@ import {
   CardBottom,
   Clamp,
   Container,
+  Form,
+  FormInputBox,
+  FormTitle,
   Grid,
   GridCol,
   Hero,
@@ -135,6 +138,16 @@ render(
   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
 </Container>`}
 </pre>
+    </Container>
+
+    <Container size={false}>
+      <h1>Form</h1>
+      <Form>
+        <FormTitle required={'必須'}>Input Title</FormTitle>
+        <FormInputBox error={'必須項目'}>
+          <input type="text"/>
+        </FormInputBox>
+      </Form>
     </Container>
 
     <Container size={false}>

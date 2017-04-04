@@ -10,6 +10,9 @@ import CardContent from './component/CardContent.js'
 import CardBottom from './component/CardBottom.js'
 import Clamp from './component/Clamp.js'
 import Container from './component/Container.js'
+import Form from './component/Form.js'
+import FormInputBox from './component/FormInputBox.js'
+import FormTitle from './component/FormTitle.js'
 import Grid from './component/Grid.js'
 import GridCol from './component/GridCol.js'
 import Hero from './component/Hero.js'
@@ -36,6 +39,9 @@ export {
   CardBottom,
   Clamp,
   Container,
+  Form,
+  FormTitle,
+  FormInputBox,
   Grid,
   GridCol,
   Hero,

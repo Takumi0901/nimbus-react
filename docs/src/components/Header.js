@@ -11,12 +11,6 @@ import {
 
 export default class Header extends React.Component {
 
-  // static propTypes = {
-  //   token: PropTypes.any,
-  //   onClickAction: PropTypes.func,
-  //   status: PropTypes.any
-  // }
-
   constructor(props) {
     super(props)
   }

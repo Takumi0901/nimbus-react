@@ -1,16 +1,16 @@
 import React, {Component, PropTypes} from 'react'
 import classNames from 'classnames'
 
-export default class MenuItem extends Component{
+export default class MenuList extends Component{
   render(){
     return(
-      <li
+      <ul
         className={classNames(
-          'c-menu__item',
+          'c-menu',
           this.props.classes
         )}>
         {this.props.children}
-      </li>
+      </ul>
     )
   }
 }

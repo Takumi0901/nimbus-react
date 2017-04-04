@@ -19,8 +19,8 @@ import Hero from './component/Hero.js'
 import Label from './component/Label.js'
 import Media from './component/Media.js'
 import MediaContent from './component/MediaContent.js'
-import Menu from './component/Menu.js'
-import MenuItem from './component/MenuItem.js'
+import MenuList from './component/MenuList.js'
+import MenuListItem from './component/MenuListItem.js'
 import Nav from './component/Nav.js'
 import NavItem from './component/NavItem.js'
 import Table from './component/Table.js'
@@ -48,8 +48,8 @@ export {
   Label,
   Media,
   MediaContent,
-  Menu,
-  MenuItem,
+  MenuList,
+  MenuListItem,
   Nav,
   NavItem ,
   Table,

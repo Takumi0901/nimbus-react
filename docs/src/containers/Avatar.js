@@ -8,12 +8,13 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 
 // components
 import {
-  Alert,
-  AlertStrongText,
+  Avatar,
   Container,
+  Table,
+  TableBody
 } from 'renimbus'
 
-class AlertPage extends Component {
+class AvatarPage extends Component {
   // static propTypes = {
   //
   // }
@@ -25,19 +26,33 @@ class AlertPage extends Component {
   render() {
     return (
       <Container size={false}>
-        <h1>Alert</h1>
-        <Alert>
-          <AlertStrongText>Sed ut perspiciatis</AlertStrongText> unde omnis iste natus error sit voluptatem
-        </Alert>
+        <h1>Avatar</h1>
+        <Avatar size={'medium'}>
+          <img src="image/thumb.jpg" alt=""/>
+        </Avatar>
 <SyntaxHighlighter style={monokai}>
 {`render() {
-  return (
-    <Alert>
-      <AlertStrongText>Sed ut perspiciatis</AlertStrongText> unde omnis iste natus error sit voluptatem
-    </Alert>
-  )
+    return (
+      <Avatar size={'medium'}>
+        <img src="image/thumb.jpg" alt=""/>
+      </Avatar>
+    )
 }`}
 </SyntaxHighlighter>
+
+        <h2>Modifier</h2>
+        <Table type={'basic'}>
+          <tbody>
+            <tr>
+              <th>Shadow</th>
+              <td>top  ||  bottom</td>
+            </tr>
+            <tr>
+              <th>Size</th>
+              <td>small  ||  medium</td>
+            </tr>
+          </tbody>
+        </Table>
       </Container>
     )
   }
@@ -52,4 +67,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(Object.assign({}, {}), dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AlertPage)
+export default connect(mapStateToProps, mapDispatchToProps)(AvatarPage)

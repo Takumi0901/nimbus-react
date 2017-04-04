@@ -1,7 +1,6 @@
 import {bindActionCreators} from 'redux'
 import React, {Component, PropTypes} from 'react'
 import {Provider} from 'react-redux'
-import routes from '../Routes'
 import {connect} from 'react-redux'
 import {syncHistoryWithStore, routeActions} from 'react-router-redux'
 import {
@@ -11,7 +10,10 @@ import {
 } from 'react-router-dom'
 
 import App from './App'
-import Alert from './Alert'
+import AlertPage from './Alert'
+import AvatarPage from './Avatar'
+import BarPage from './Bar'
+import ButtonPage from './Button'
 
 class Root extends Component {
   static propTypes = {
@@ -40,9 +42,15 @@ class Root extends Component {
 
     return (
       <Provider store={store}>
-        <App>
-          {routes}
-        </App>
+        <Router>
+          <App>
+            <Route exact path="/" component={AlertPage}/>
+            <Route exact path="/avatar" component={AvatarPage}/>
+            <Route exact path="/bar" component={BarPage}/>
+            <Route exact path="/button" component={ButtonPage}/>
+          </App>
+        </Router>
+        {/*<App/>*/}
       </Provider>
     )
   }

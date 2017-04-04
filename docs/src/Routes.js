@@ -1,13 +1,11 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-import Alert from './containers/Alert'
+import {Route, IndexRoute} from 'react-router'
+import AlertPage from './containers/Alert'
+import AvatarPage from './containers/Avatar'
 
 export default (
-  <Router>
-    <Route exact path="/" component={Alert}/>
-  </Router>
+  <div>
+    <Route path="alert" component={AlertPage}/>
+    <Route path="avatar" component={AvatarPage}/>
+  </div>
 )

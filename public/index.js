@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Text = exports.Table = exports.NavItem = exports.Nav = exports.MenuItem = exports.Menu = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
+exports.Text = exports.Table = exports.NavItem = exports.Nav = exports.MenuListItem = exports.MenuList = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
 
 var _Alert = require('./component/Alert.js');
 
@@ -89,13 +89,13 @@ var _MediaContent = require('./component/MediaContent.js');
 
 var _MediaContent2 = _interopRequireDefault(_MediaContent);
 
-var _Menu = require('./component/Menu.js');
+var _MenuList = require('./component/MenuList.js');
 
-var _Menu2 = _interopRequireDefault(_Menu);
+var _MenuList2 = _interopRequireDefault(_MenuList);
 
-var _MenuItem = require('./component/MenuItem.js');
+var _MenuListItem = require('./component/MenuListItem.js');
 
-var _MenuItem2 = _interopRequireDefault(_MenuItem);
+var _MenuListItem2 = _interopRequireDefault(_MenuListItem);
 
 var _Nav = require('./component/Nav.js');
 
@@ -136,8 +136,8 @@ exports.Hero = _Hero2.default;
 exports.Label = _Label2.default;
 exports.Media = _Media2.default;
 exports.MediaContent = _MediaContent2.default;
-exports.Menu = _Menu2.default;
-exports.MenuItem = _MenuItem2.default;
+exports.MenuList = _MenuList2.default;
+exports.MenuListItem = _MenuListItem2.default;
 exports.Nav = _Nav2.default;
 exports.NavItem = _NavItem2.default;
 exports.Table = _Table2.default;

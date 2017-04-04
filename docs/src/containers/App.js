@@ -4,7 +4,12 @@ import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import {push} from 'react-router-redux'
-import {Link} from 'react-router'
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 // components
 import {
@@ -15,6 +20,7 @@ import {
 } from 'renimbus'
 
 import Header from '../components/Header'
+import SideMenu from '../components/SideMenu'
 
 class App extends Component {
   // static propTypes = {
@@ -30,14 +36,16 @@ class App extends Component {
     <div>
       <Header/>
       <div className="l-wrapper">
-        <Grid gutters={true}>
-          <GridCol size={3}>
-            SideMenu
-          </GridCol>
-          <GridCol size={9}>
-            {this.props.children}
-          </GridCol>
-        </Grid>
+        <Router>
+          <Grid gutters={true}>
+            <GridCol size={3}>
+              <SideMenu/>
+            </GridCol>
+            <GridCol size={9}>
+              {this.props.children}
+            </GridCol>
+          </Grid>
+        </Router>
       </div>
     </div>
     )

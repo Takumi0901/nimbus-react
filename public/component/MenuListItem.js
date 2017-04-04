@@ -22,28 +22,28 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var MenuList = function (_Component) {
-  _inherits(MenuList, _Component);
+var MenuListItem = function (_Component) {
+  _inherits(MenuListItem, _Component);
 
-  function MenuList() {
-    _classCallCheck(this, MenuList);
+  function MenuListItem() {
+    _classCallCheck(this, MenuListItem);
 
-    return _possibleConstructorReturn(this, (MenuList.__proto__ || Object.getPrototypeOf(MenuList)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (MenuListItem.__proto__ || Object.getPrototypeOf(MenuListItem)).apply(this, arguments));
   }
 
-  _createClass(MenuList, [{
+  _createClass(MenuListItem, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'ul',
+        'li',
         {
-          className: (0, _classnames2.default)('c-menu', this.props.classes) },
+          className: (0, _classnames2.default)('c-menu__item', this.props.classes) },
         this.props.children
       );
     }
   }]);
 
-  return MenuList;
+  return MenuListItem;
 }(_react.Component);
 
-exports.default = MenuList;
+exports.default = MenuListItem;

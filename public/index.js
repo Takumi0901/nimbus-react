@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Text = exports.Table = exports.TabBody = exports.TabBtn = exports.TabMenu = exports.Tab = exports.NavItem = exports.Nav = exports.MenuListItem = exports.MenuList = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
+exports.Text = exports.Table = exports.TabBody = exports.TabBtn = exports.TabMenu = exports.Tab = exports.NavItem = exports.Nav = exports.ModalHeader = exports.ModalContent = exports.ModalBottom = exports.Modal = exports.MenuListItem = exports.MenuList = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
 
 var _Alert = require('./component/Alert.js');
 
@@ -97,6 +97,22 @@ var _MenuListItem = require('./component/MenuListItem.js');
 
 var _MenuListItem2 = _interopRequireDefault(_MenuListItem);
 
+var _Modal = require('./component/Modal.js');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _ModalBottom = require('./component/ModalBottom.js');
+
+var _ModalBottom2 = _interopRequireDefault(_ModalBottom);
+
+var _ModalContent = require('./component/ModalContent.js');
+
+var _ModalContent2 = _interopRequireDefault(_ModalContent);
+
+var _ModalHeader = require('./component/ModalHeader.js');
+
+var _ModalHeader2 = _interopRequireDefault(_ModalHeader);
+
 var _Nav = require('./component/Nav.js');
 
 var _Nav2 = _interopRequireDefault(_Nav);
@@ -154,6 +170,10 @@ exports.Media = _Media2.default;
 exports.MediaContent = _MediaContent2.default;
 exports.MenuList = _MenuList2.default;
 exports.MenuListItem = _MenuListItem2.default;
+exports.Modal = _Modal2.default;
+exports.ModalBottom = _ModalBottom2.default;
+exports.ModalContent = _ModalContent2.default;
+exports.ModalHeader = _ModalHeader2.default;
 exports.Nav = _Nav2.default;
 exports.NavItem = _NavItem2.default;
 exports.Tab = _Tab2.default;

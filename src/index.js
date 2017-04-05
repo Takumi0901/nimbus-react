@@ -21,6 +21,10 @@ import Media from './component/Media.js'
 import MediaContent from './component/MediaContent.js'
 import MenuList from './component/MenuList.js'
 import MenuListItem from './component/MenuListItem.js'
+import Modal from './component/Modal.js'
+import ModalBottom from './component/ModalBottom.js'
+import ModalContent from './component/ModalContent.js'
+import ModalHeader from './component/ModalHeader.js'
 import Nav from './component/Nav.js'
 import NavItem from './component/NavItem.js'
 import Tab from './component/Tab.js'
@@ -54,6 +58,10 @@ export {
   MediaContent,
   MenuList,
   MenuListItem,
+  Modal,
+  ModalBottom,
+  ModalContent,
+  ModalHeader,
   Nav,
   NavItem,
   Tab,

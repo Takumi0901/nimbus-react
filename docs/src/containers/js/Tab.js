@@ -154,10 +154,8 @@ export default function tabReducer(state = {tabId: 1}, action) {
 
 import {combineReducers} from "redux"
 import {routerReducer} from 'react-router-redux'
-import tabReducer from "./modules/Tab"
 
 export default combineReducers({
-  routing: routerReducer,
   tab: tabReducer
 })`}
             </SyntaxHighlighter>

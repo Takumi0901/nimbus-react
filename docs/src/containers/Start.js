@@ -24,14 +24,16 @@ class StartPage extends Component {
 
   render() {
     return (
-      <Grid gutters={true} align={'center'}>
-        <GridCol size={9}>
-          <Container>
-            <h1>npm install</h1>
-            <p>Coming Soon</p>
-          </Container>
-        </GridCol>
-      </Grid>
+      <div className="l-wrapper">
+        <Grid gutters={true} query={true} align={'center'}>
+          <GridCol size={9}>
+            <Container>
+              <h1>npm install</h1>
+              <p>Coming Soon</p>
+            </Container>
+          </GridCol>
+        </Grid>
+      </div>
     )
   }
 }

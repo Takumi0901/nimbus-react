@@ -23,10 +23,13 @@ export default class Header extends React.Component {
         <Bar shadow={'bottom'} size={'medium'} color={false} fixed={true}>
           <Grid gutters={true} align={'between'}>
             <GridCol>
-              <h1><img src="/renimbus/public/image/logo.png" alt="" width="140"/></h1>
+              <h1><Link to="/renimbus"><img src="/renimbus/public/image/logo.png" alt="" width="140"/></Link></h1>
             </GridCol>
             <GridCol>
-              <Nav size={'medium'}>
+              <Nav size={'medium'} classes="u-d-sp">
+                <NavItem><Link to="/globalmenu">Menu</Link></NavItem>
+              </Nav>
+              <Nav size={'medium'} classes="u-d-pc">
                 <NavItem><Link to="/renimbus">Home</Link></NavItem>
                 <NavItem><Link to="/start">Getting start</Link></NavItem>
                 <NavItem><Link to="/heading">Base</Link></NavItem>

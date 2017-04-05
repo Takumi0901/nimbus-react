@@ -37,7 +37,7 @@ class Home extends Component {
           </p>
         </Hero>
         <div className="l-wrapper">
-          <Grid gutters={true} align={'center'}>
+          <Grid gutters={true} query={true} align={'center'}>
             <GridCol size={9}>
               <Container size={'full'}>
                 <ButtonLink href={'https://github.com/Takumi0901/renimbus'} color={'primary'} size={'large'}>View on GitHub</ButtonLink>

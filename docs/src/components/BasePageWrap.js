@@ -20,14 +20,14 @@ export default class BasePageWrap extends React.Component {
   render() {
     return (
       <div className="l-wrapper">
-        <Grid gutters={true}>
+        <Grid gutters={true} query={true}>
           <GridCol size={9}>
             <Container>
               {this.props.children}
             </Container>
           </GridCol>
           <GridCol size={3}>
-            <Container>
+            <Container classes="u-d-pc">
               <SideMenu/>
             </Container>
           </GridCol>

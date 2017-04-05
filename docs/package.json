@@ -2,7 +2,7 @@
   "name": "renimbus",
   "version": "0.0.1",
   "description": "",
-  "main": "./public/bundle.js",
+  "main": "./bundle.js",
   "scripts": {
     "start": "webpack-dashboard -- webpack-dev-server --history-api-fallback -d --hot --inline --port 4000",
     "test": "echo \"Error: no test specified\" && exit 1",

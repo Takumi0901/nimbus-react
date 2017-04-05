@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 
 import App from './App'
+import MenuPage from './Menu'
 import HomePage from './Home'
 import StartPage from './Start'
 import AlertPage from './component/Alert'
@@ -82,6 +83,7 @@ class Root extends Component {
         <Router>
           <App>
             <Route path="/renimbus/" component={HomePage}/>
+            <Route path="/globalmenu" component={MenuPage}/>
             <Route path="/start" component={StartPage}/>
             <Route path="/alert" component={AlertPage}/>
             <Route path="/avatar" component={AvatarPage}/>

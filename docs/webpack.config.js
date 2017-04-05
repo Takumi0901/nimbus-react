@@ -6,7 +6,7 @@ var precss = require('precss')
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: './public',
+    path: './',
     filename: 'bundle.js',
   },
   module: {
@@ -34,6 +34,6 @@ module.exports = {
     new DashboardPlugin()
   ],
   devServer: {
-    contentBase: 'public'
+    contentBase: './'
   }
 }

@@ -81,7 +81,7 @@ class Root extends Component {
       <Provider store={store}>
         <Router>
           <App>
-            <Route path="/" component={HomePage}/>
+            <Route path="/renimbus/" component={HomePage}/>
             <Route path="/start" component={StartPage}/>
             <Route path="/alert" component={AlertPage}/>
             <Route path="/avatar" component={AvatarPage}/>

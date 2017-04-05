@@ -27,8 +27,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Hero type={'image'} anim={false} image={'image/hero.jpg'} classes="u-ta-c">
-          <h2><img src="./image/logo-white.png" alt="" width="300"/></h2>
+        <Hero type={'image'} anim={false} image={'/renimbus/image/hero.jpg'} classes="u-ta-c">
+          <h2><img src="/renimbus/image/logo-white.png" alt="" width="300"/></h2>
           <p className="u-fz-18 u-mb-0">
             A design system made for React.js
           </p>

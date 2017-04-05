@@ -26465,7 +26465,7 @@
 	          _react2.default.createElement(
 	            _App2.default,
 	            null,
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Home2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/', component: _Home2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/start', component: _Start2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/alert', component: _Alert2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/avatar', component: _Avatar2.default }),
@@ -37272,11 +37272,11 @@
 	        null,
 	        _react2.default.createElement(
 	          _renimbus.Hero,
-	          { type: 'image', anim: false, image: 'image/hero.jpg', classes: 'u-ta-c' },
+	          { type: 'image', anim: false, image: '/renimbus/image/hero.jpg', classes: 'u-ta-c' },
 	          _react2.default.createElement(
 	            'h2',
 	            null,
-	            _react2.default.createElement('img', { src: './image/logo-white.png', alt: '', width: '300' })
+	            _react2.default.createElement('img', { src: '/renimbus/image/logo-white.png', alt: '', width: '300' })
 	          ),
 	          _react2.default.createElement(
 	            'p',

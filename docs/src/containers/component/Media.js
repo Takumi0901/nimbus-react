@@ -30,7 +30,7 @@ class MediaPage extends Component {
           <h1>Media</h1>
           <Media>
             <MediaContent>
-              <img src="image/thumb.jpg" alt="" width="150" height="150"/>
+              <img src="/renimbus/public/image/thumb.jpg" alt="" width="150" height="150"/>
             </MediaContent>
             <MediaContent>
               <p className="u-mb-0">

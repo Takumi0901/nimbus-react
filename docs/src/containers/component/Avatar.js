@@ -30,7 +30,7 @@ class AvatarPage extends Component {
         <Container size={false}>
           <h1>Avatar</h1>
           <Avatar size={'medium'}>
-            <img src="image/thumb.jpg" alt=""/>
+            <img src="/renimbus/public/image/thumb.jpg" alt=""/>
           </Avatar>
   <SyntaxHighlighter style={monokai}>
   {`render() {

@@ -27862,8 +27862,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../develop/node_modules/css-loader/index.js!./app.css", function() {
-				var newContent = require("!!../../develop/node_modules/css-loader/index.js!./app.css");
+			module.hot.accept("!!../../docs/node_modules/css-loader/index.js!./app.css", function() {
+				var newContent = require("!!../../docs/node_modules/css-loader/index.js!./app.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -37272,11 +37272,11 @@
 	        null,
 	        _react2.default.createElement(
 	          _renimbus.Hero,
-	          { type: 'image', anim: false, image: '/renimbus/image/hero.jpg', classes: 'u-ta-c' },
+	          { type: 'image', anim: false, image: '/renimbus/public/image/hero.jpg', classes: 'u-ta-c' },
 	          _react2.default.createElement(
 	            'h2',
 	            null,
-	            _react2.default.createElement('img', { src: '/renimbus/image/logo-white.png', alt: '', width: '300' })
+	            _react2.default.createElement('img', { src: '/renimbus/public/image/logo-white.png', alt: '', width: '300' })
 	          ),
 	          _react2.default.createElement(
 	            'p',
@@ -65327,7 +65327,7 @@
 	          _react2.default.createElement(
 	            _renimbus.Avatar,
 	            { size: 'medium' },
-	            _react2.default.createElement('img', { src: 'image/thumb.jpg', alt: '' })
+	            _react2.default.createElement('img', { src: '/renimbus/public/image/thumb.jpg', alt: '' })
 	          ),
 	          _react2.default.createElement(
 	            _reactSyntaxHighlighter2.default,
@@ -67159,7 +67159,7 @@
 	            ),
 	            _react2.default.createElement(
 	              _renimbus.Hero,
-	              { type: 'image', anim: false, image: 'image/hero.jpg' },
+	              { type: 'image', anim: false, image: '/renimbus/public/image/hero.jpg' },
 	              _react2.default.createElement(
 	                'h2',
 	                { className: 'c-text--white' },
@@ -67444,7 +67444,7 @@
 	            _react2.default.createElement(
 	              _renimbus.MediaContent,
 	              null,
-	              _react2.default.createElement('img', { src: 'image/thumb.jpg', alt: '', width: '150', height: '150' })
+	              _react2.default.createElement('img', { src: '/renimbus/public/image/thumb.jpg', alt: '', width: '150', height: '150' })
 	            ),
 	            _react2.default.createElement(
 	              _renimbus.MediaContent,

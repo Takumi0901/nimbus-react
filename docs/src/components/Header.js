@@ -27,7 +27,7 @@ export default class Header extends React.Component {
             </GridCol>
             <GridCol>
               <Nav size={'medium'}>
-                <NavItem><Link to="/">Home</Link></NavItem>
+                <NavItem><Link to="/renimbus">Home</Link></NavItem>
                 <NavItem><Link to="/start">Getting start</Link></NavItem>
                 <NavItem><Link to="/heading">Base</Link></NavItem>
                 <NavItem><Link to="/alert">Component</Link></NavItem>

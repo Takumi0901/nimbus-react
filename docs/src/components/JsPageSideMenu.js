@@ -19,8 +19,8 @@ export default class SideMenu extends React.Component {
   render() {
     return (
       <MenuList>
-        <MenuListItem><Link to="/renimbus/tab">Tab</Link></MenuListItem>
-        <MenuListItem><Link to="/renimbus/modal">Modal</Link></MenuListItem>
+        <MenuListItem><Link to="/tab">Tab</Link></MenuListItem>
+        <MenuListItem><Link to="/modal">Modal</Link></MenuListItem>
       </MenuList>
     )
   }

@@ -42,7 +42,7 @@ var FormInputBox = function (_Component) {
         this.props.error && _react2.default.createElement(
           'span',
           { className: 'c-form__input-box__alert' },
-          '\u5FC5\u9808\u9805\u76EE\u3067\u3059'
+          this.props.error
         )
       );
     }

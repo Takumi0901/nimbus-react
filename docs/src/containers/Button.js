@@ -109,11 +109,11 @@ class ButtonPage extends Component {
         <Table type={'basic'}>
           <tbody>
           <tr>
-            <th>Color</th>
+            <th>color</th>
             <td>default  ||  primary  ||  secondary  ||  info  ||  highlight</td>
           </tr>
           <tr>
-            <th>Size</th>
+            <th>size</th>
             <td>small  ||  medium  ||  default  ||  Large  ||  jumbo</td>
           </tr>
           <tr>

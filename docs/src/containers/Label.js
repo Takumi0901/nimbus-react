@@ -8,13 +8,13 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 
 // components
 import {
-  Avatar,
+  Label,
   Container,
   Table,
   TableBody
 } from 'renimbus'
 
-class AvatarPage extends Component {
+class LabelPage extends Component {
   // static propTypes = {
   //
   // }
@@ -26,33 +26,23 @@ class AvatarPage extends Component {
   render() {
     return (
       <Container size={false}>
-        <h1>Avatar</h1>
-        <Avatar size={'medium'}>
-          <img src="image/thumb.jpg" alt=""/>
-        </Avatar>
-<SyntaxHighlighter style={monokai}>
-{`render() {
+        <h1>Label</h1>
+        <Label color={false}>Default</Label>
+        <Label color={'primary'}>Primary</Label>
+        <Label color={'secondary'}>Secondary</Label>
+        <Label color={'info'}>Info</Label>
+        <Label color={'highlight'}>Highlight</Label>
+        <SyntaxHighlighter style={monokai}>
+          {`render() {
     return (
-      <Avatar size={'medium'}>
-        <img src="image/thumb.jpg" alt=""/>
-      </Avatar>
+      <Label color={false}>Default</Label>
+      <Label color={'primary'}>Primary</Label>
+      <Label color={'secondary'}>Secondary</Label>
+      <Label color={'info'}>Info</Label>
+      <Label color={'highlight'}>Highlight</Label>
     )
 }`}
-</SyntaxHighlighter>
-
-        <h2>Modifier</h2>
-        <Table type={'basic'}>
-          <tbody>
-            <tr>
-              <th>shadow</th>
-              <td>top  ||  bottom</td>
-            </tr>
-            <tr>
-              <th>size</th>
-              <td>small  ||  medium</td>
-            </tr>
-          </tbody>
-        </Table>
+        </SyntaxHighlighter>
       </Container>
     )
   }
@@ -67,4 +57,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(Object.assign({}, {}), dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AvatarPage)
+export default connect(mapStateToProps, mapDispatchToProps)(LabelPage)

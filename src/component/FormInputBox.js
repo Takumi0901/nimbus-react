@@ -12,7 +12,7 @@ export default class FormInputBox extends Component{
         )}>
         {this.props.children}
         {this.props.error &&
-        <span className={'c-form__input-box__alert'}>必須項目です</span>
+        <span className={'c-form__input-box__alert'}>{this.props.error}</span>
         }
       </div>
     )

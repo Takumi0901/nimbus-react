@@ -44,19 +44,19 @@ class BarPage extends Component {
         <Table type={'basic'}>
           <tbody>
             <tr>
-              <th>Shadow</th>
+              <th>shadow</th>
               <td>top  ||  bottom</td>
             </tr>
             <tr>
-              <th>Size</th>
+              <th>size</th>
               <td>small  ||  medium  ||  Large</td>
             </tr>
             <tr>
-              <th>Color</th>
+              <th>color</th>
               <td>promary  ||  secondary  ||  info</td>
             </tr>
             <tr>
-              <th>Fixed</th>
+              <th>fixed</th>
               <td>top  ||  bottom</td>
             </tr>
           </tbody>

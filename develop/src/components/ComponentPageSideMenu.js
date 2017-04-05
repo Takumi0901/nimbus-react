@@ -17,22 +17,22 @@ export default class SideMenu extends React.Component {
   render() {
     return (
       <MenuList>
-        <MenuListItem><Link to="/alert">Alert</Link></MenuListItem>
-        <MenuListItem><Link to="/avatar">Avatar</Link></MenuListItem>
-        <MenuListItem><Link to="/bar">Bar</Link></MenuListItem>
-        <MenuListItem><Link to="/button">Button</Link></MenuListItem>
-        <MenuListItem><Link to="/card">Card</Link></MenuListItem>
-        <MenuListItem><Link to="/clamp">Clamp</Link></MenuListItem>
-        <MenuListItem><Link to="/container">Container</Link></MenuListItem>
-        <MenuListItem><Link to="/form">Form</Link></MenuListItem>
-        <MenuListItem><Link to="/grid">Grid</Link></MenuListItem>
-        <MenuListItem><Link to="/hero">Hero</Link></MenuListItem>
-        <MenuListItem><Link to="/label">Label</Link></MenuListItem>
-        <MenuListItem><Link to="/media">Media</Link></MenuListItem>
-        <MenuListItem><Link to="/menu">Menu</Link></MenuListItem>
-        <MenuListItem><Link to="/nav">Nav</Link></MenuListItem>
-        <MenuListItem><Link to="/table">Table</Link></MenuListItem>
-        <MenuListItem><Link to="/text">Text</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/alert">Alert</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//avatar">Avatar</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//bar">Bar</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//button">Button</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//card">Card</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//clamp">Clamp</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//container">Container</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//form">Form</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//grid">Grid</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//hero">Hero</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//label">Label</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//media">Media</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//menu">Menu</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//nav">Nav</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//table">Table</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus//text">Text</Link></MenuListItem>
       </MenuList>
     )
   }

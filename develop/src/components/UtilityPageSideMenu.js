@@ -18,20 +18,20 @@ export default class SideMenu extends React.Component {
   render() {
     return (
       <MenuList>
-        <MenuListItem><Link to="/border">Border</Link></MenuListItem>
-        <MenuListItem><Link to="/cf">Clearfix</Link></MenuListItem>
-        <MenuListItem><Link to="/display">Display</Link></MenuListItem>
-        <MenuListItem><Link to="/fs">Font-size</Link></MenuListItem>
-        <MenuListItem><Link to="/margin">Margin</Link></MenuListItem>
-        <MenuListItem><Link to="/misc">Misc</Link></MenuListItem>
-        <MenuListItem><Link to="/padding">Padding</Link></MenuListItem>
-        <MenuListItem><Link to="/position">Position</Link></MenuListItem>
-        <MenuListItem><Link to="/ta">Text-Align</Link></MenuListItem>
-        <MenuListItem><Link to="/td">Text-Decoration</Link></MenuListItem>
-        <MenuListItem><Link to="/tt">Text-Truncate</Link></MenuListItem>
-        <MenuListItem><Link to="/va">Vertical-Align</Link></MenuListItem>
-        <MenuListItem><Link to="/ws">White-Space</Link></MenuListItem>
-        <MenuListItem><Link to="/width">Width</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/border">Border</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/cf">Clearfix</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/display">Display</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/fs">Font-size</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/margin">Margin</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/misc">Misc</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/padding">Padding</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/position">Position</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/ta">Text-Align</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/td">Text-Decoration</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/tt">Text-Truncate</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/va">Vertical-Align</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/ws">White-Space</Link></MenuListItem>
+        <MenuListItem><Link to="/renimbus/width">Width</Link></MenuListItem>
       </MenuList>
     )
   }

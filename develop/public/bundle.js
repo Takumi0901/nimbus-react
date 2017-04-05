@@ -26465,46 +26465,46 @@
 	          _react2.default.createElement(
 	            _App2.default,
 	            null,
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/', component: _Home2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/start', component: _Start2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/alert', component: _Alert2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/avatar', component: _Avatar2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/bar', component: _Bar2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/button', component: _Button2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/card', component: _Card2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/clamp', component: _Clamp2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/container', component: _Container2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/form', component: _Form2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/grid', component: _Grid2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/hero', component: _Hero2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/label', component: _Label2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/media', component: _Media2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/menu', component: _MenuList2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/nav', component: _Nav2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/table', component: _Table2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/text', component: _Text2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/heading', component: _Heading2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/paragraph', component: _Paragraph2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/address', component: _Address2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/list', component: _List2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/dl', component: _Dl2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/anchor', component: _Anchor2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/border', component: _Border2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/cf', component: _Cf2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/display', component: _Display2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/fs', component: _Fs2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/margin', component: _Margin2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/misc', component: _Misc2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/padding', component: _Padding2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/position', component: _Position2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/ta', component: _Ta2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/td', component: _Td2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/tt', component: _Tt2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/va', component: _Va2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/ws', component: _Ws2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/width', component: _Width2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/tab', component: _Tab2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/modal', component: _Modal2.default })
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/renimbus/', component: _Home2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/start', component: _Start2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/alert', component: _Alert2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/avatar', component: _Avatar2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/bar', component: _Bar2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/button', component: _Button2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/card', component: _Card2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/clamp', component: _Clamp2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/container', component: _Container2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/form', component: _Form2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/grid', component: _Grid2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/hero', component: _Hero2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/label', component: _Label2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/media', component: _Media2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/menu', component: _MenuList2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/nav', component: _Nav2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/table', component: _Table2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/text', component: _Text2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/heading', component: _Heading2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/paragraph', component: _Paragraph2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/address', component: _Address2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/list', component: _List2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/dl', component: _Dl2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/anchor', component: _Anchor2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/border', component: _Border2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/cf', component: _Cf2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/display', component: _Display2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/fs', component: _Fs2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/margin', component: _Margin2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/misc', component: _Misc2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/padding', component: _Padding2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/position', component: _Position2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/ta', component: _Ta2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/td', component: _Td2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/tt', component: _Tt2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/va', component: _Va2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/ws', component: _Ws2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/width', component: _Width2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/tab', component: _Tab2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/modal', component: _Modal2.default })
 	          )
 	        )
 	      );
@@ -65106,7 +65106,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/alert' },
+	            { to: '/renimbus/alert' },
 	            'Alert'
 	          )
 	        ),
@@ -65115,7 +65115,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/avatar' },
+	            { to: '/renimbus//avatar' },
 	            'Avatar'
 	          )
 	        ),
@@ -65124,7 +65124,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/bar' },
+	            { to: '/renimbus//bar' },
 	            'Bar'
 	          )
 	        ),
@@ -65133,7 +65133,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/button' },
+	            { to: '/renimbus//button' },
 	            'Button'
 	          )
 	        ),
@@ -65142,7 +65142,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/card' },
+	            { to: '/renimbus//card' },
 	            'Card'
 	          )
 	        ),
@@ -65151,7 +65151,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/clamp' },
+	            { to: '/renimbus//clamp' },
 	            'Clamp'
 	          )
 	        ),
@@ -65160,7 +65160,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/container' },
+	            { to: '/renimbus//container' },
 	            'Container'
 	          )
 	        ),
@@ -65169,7 +65169,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/form' },
+	            { to: '/renimbus//form' },
 	            'Form'
 	          )
 	        ),
@@ -65178,7 +65178,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/grid' },
+	            { to: '/renimbus//grid' },
 	            'Grid'
 	          )
 	        ),
@@ -65187,7 +65187,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/hero' },
+	            { to: '/renimbus//hero' },
 	            'Hero'
 	          )
 	        ),
@@ -65196,7 +65196,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/label' },
+	            { to: '/renimbus//label' },
 	            'Label'
 	          )
 	        ),
@@ -65205,7 +65205,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/media' },
+	            { to: '/renimbus//media' },
 	            'Media'
 	          )
 	        ),
@@ -65214,7 +65214,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/menu' },
+	            { to: '/renimbus//menu' },
 	            'Menu'
 	          )
 	        ),
@@ -65223,7 +65223,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/nav' },
+	            { to: '/renimbus//nav' },
 	            'Nav'
 	          )
 	        ),
@@ -65232,7 +65232,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/table' },
+	            { to: '/renimbus//table' },
 	            'Table'
 	          )
 	        ),
@@ -65241,7 +65241,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/text' },
+	            { to: '/renimbus//text' },
 	            'Text'
 	          )
 	        )
@@ -68663,7 +68663,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/heading' },
+	            { to: '/renimbus/heading' },
 	            'Heading'
 	          )
 	        ),
@@ -68672,7 +68672,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/paragraph' },
+	            { to: '/renimbus/paragraph' },
 	            'Paragraph'
 	          )
 	        ),
@@ -68681,7 +68681,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/address' },
+	            { to: '/renimbus/address' },
 	            'Address'
 	          )
 	        ),
@@ -68690,7 +68690,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/list' },
+	            { to: '/renimbus/list' },
 	            'List'
 	          )
 	        ),
@@ -68699,7 +68699,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/dl' },
+	            { to: '/renimbus/dl' },
 	            'dl, dt, dd'
 	          )
 	        ),
@@ -68708,7 +68708,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/anchor' },
+	            { to: '/renimbus/anchor' },
 	            'Anchor'
 	          )
 	        )
@@ -69518,7 +69518,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/border' },
+	            { to: '/renimbus/border' },
 	            'Border'
 	          )
 	        ),
@@ -69527,7 +69527,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/cf' },
+	            { to: '/renimbus/cf' },
 	            'Clearfix'
 	          )
 	        ),
@@ -69536,7 +69536,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/display' },
+	            { to: '/renimbus/display' },
 	            'Display'
 	          )
 	        ),
@@ -69545,7 +69545,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/fs' },
+	            { to: '/renimbus/fs' },
 	            'Font-size'
 	          )
 	        ),
@@ -69554,7 +69554,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/margin' },
+	            { to: '/renimbus/margin' },
 	            'Margin'
 	          )
 	        ),
@@ -69563,7 +69563,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/misc' },
+	            { to: '/renimbus/misc' },
 	            'Misc'
 	          )
 	        ),
@@ -69572,7 +69572,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/padding' },
+	            { to: '/renimbus/padding' },
 	            'Padding'
 	          )
 	        ),
@@ -69581,7 +69581,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/position' },
+	            { to: '/renimbus/position' },
 	            'Position'
 	          )
 	        ),
@@ -69590,7 +69590,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/ta' },
+	            { to: '/renimbus/ta' },
 	            'Text-Align'
 	          )
 	        ),
@@ -69599,7 +69599,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/td' },
+	            { to: '/renimbus/td' },
 	            'Text-Decoration'
 	          )
 	        ),
@@ -69608,7 +69608,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/tt' },
+	            { to: '/renimbus/tt' },
 	            'Text-Truncate'
 	          )
 	        ),
@@ -69617,7 +69617,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/va' },
+	            { to: '/renimbus/va' },
 	            'Vertical-Align'
 	          )
 	        ),
@@ -69626,7 +69626,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/ws' },
+	            { to: '/renimbus/ws' },
 	            'White-Space'
 	          )
 	        ),
@@ -69635,7 +69635,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/width' },
+	            { to: '/renimbus/width' },
 	            'Width'
 	          )
 	        )
@@ -71258,7 +71258,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/tab' },
+	            { to: '/renimbus/tab' },
 	            'Tab'
 	          )
 	        ),
@@ -71267,7 +71267,7 @@
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
-	            { to: '/modal' },
+	            { to: '/renimbus/modal' },
 	            'Modal'
 	          )
 	        )

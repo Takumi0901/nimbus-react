@@ -30434,7 +30434,7 @@
 	              _react2.default.createElement(
 	                'h1',
 	                null,
-	                _react2.default.createElement('img', { src: 'image/logo.png', alt: '', width: '140' })
+	                _react2.default.createElement('img', { src: '/renimbus/public/image/logo.png', alt: '', width: '140' })
 	              )
 	            ),
 	            _react2.default.createElement(

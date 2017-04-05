@@ -17,7 +17,7 @@ export default class SideMenu extends React.Component {
   render() {
     return (
       <MenuList>
-        <MenuListItem><Link to="/">Alert</Link></MenuListItem>
+        <MenuListItem><Link to="/alert">Alert</Link></MenuListItem>
         <MenuListItem><Link to="/avatar">Avatar</Link></MenuListItem>
         <MenuListItem><Link to="/bar">Bar</Link></MenuListItem>
         <MenuListItem><Link to="/button">Button</Link></MenuListItem>

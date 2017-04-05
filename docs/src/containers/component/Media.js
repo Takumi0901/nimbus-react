@@ -1,7 +1,8 @@
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import {push} from 'react-router-redux'
+
+import ComponentPageWrap from '../../components/ComponentPageWrap'
 
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { monokai } from 'react-syntax-highlighter/dist/styles'
@@ -24,8 +25,23 @@ class MediaPage extends Component {
 
   render() {
     return (
-      <Container size={false}>
-        <h1>Media</h1>
+      <ComponentPageWrap>
+        <Container size={false}>
+          <h1>Media</h1>
+          <Media>
+            <MediaContent>
+              <img src="image/thumb.jpg" alt="" width="150" height="150"/>
+            </MediaContent>
+            <MediaContent>
+              <p className="u-mb-0">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              </p>
+            </MediaContent>
+          </Media>
+
+          <SyntaxHighlighter style={monokai}>
+            {`render() {
+      return (
         <Media>
           <MediaContent>
             <img src="image/thumb.jpg" alt="" width="150" height="150"/>
@@ -36,24 +52,11 @@ class MediaPage extends Component {
             </p>
           </MediaContent>
         </Media>
-
-        <SyntaxHighlighter style={monokai}>
-          {`render() {
-    return (
-      <Media>
-        <MediaContent>
-          <img src="image/thumb.jpg" alt="" width="150" height="150"/>
-        </MediaContent>
-        <MediaContent>
-          <p className="u-mb-0">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          </p>
-        </MediaContent>
-      </Media>
-    )
-}`}
-        </SyntaxHighlighter>
-      </Container>
+      )
+  }`}
+          </SyntaxHighlighter>
+        </Container>
+      </ComponentPageWrap>
     )
   }
 }

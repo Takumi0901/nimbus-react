@@ -1,25 +1,19 @@
-import 'renimbus/public/css/app.css'
-
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import {push} from 'react-router-redux'
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { monokai } from 'react-syntax-highlighter/dist/styles'
 
 // components
 import {
   Grid,
-  GridCol
+  GridCol,
+  Container
 } from 'renimbus'
 
-import Header from '../components/Header'
-
-class App extends Component {
+class StartPage extends Component {
   // static propTypes = {
   //
   // }
@@ -30,14 +24,14 @@ class App extends Component {
 
   render() {
     return (
-    <Router>
-      <div>
-        <Header/>
-        <div className="l-wrapper">
-          {this.props.children}
-        </div>
-      </div>
-    </Router>
+      <Grid gutters={true} align={'center'}>
+        <GridCol size={9}>
+          <Container>
+            <h1>npm install</h1>
+            <p>Coming Soon</p>
+          </Container>
+        </GridCol>
+      </Grid>
     )
   }
 }
@@ -51,4 +45,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(Object.assign({}, {}), dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(StartPage)

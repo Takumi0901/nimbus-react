@@ -3,6 +3,8 @@ import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import {Link} from 'react-router-dom'
 
+import ComponentPageWrap from '../../components/ComponentPageWrap'
+
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { monokai } from 'react-syntax-highlighter/dist/styles'
 
@@ -24,26 +26,28 @@ class MenuListPage extends Component {
 
   render() {
     return (
-      <Container size={false}>
-        <h1>Menu</h1>
+      <ComponentPageWrap>
+        <Container size={false}>
+          <h1>Menu</h1>
+          <MenuList>
+            <MenuListItem><Link to="#">Menu1</Link></MenuListItem>
+            <MenuListItem><Link to="#">Menu2</Link></MenuListItem>
+            <MenuListItem><Link to="#">Menu3</Link></MenuListItem>
+          </MenuList>
+
+          <SyntaxHighlighter style={monokai}>
+            {`render() {
+      return (
         <MenuList>
           <MenuListItem><Link to="#">Menu1</Link></MenuListItem>
           <MenuListItem><Link to="#">Menu2</Link></MenuListItem>
           <MenuListItem><Link to="#">Menu3</Link></MenuListItem>
         </MenuList>
-
-        <SyntaxHighlighter style={monokai}>
-          {`render() {
-    return (
-      <MenuList>
-        <MenuListItem><Link to="#">Menu1</Link></MenuListItem>
-        <MenuListItem><Link to="#">Menu2</Link></MenuListItem>
-        <MenuListItem><Link to="#">Menu3</Link></MenuListItem>
-      </MenuList>
-    )
-}`}
-        </SyntaxHighlighter>
-      </Container>
+      )
+  }`}
+          </SyntaxHighlighter>
+        </Container>
+      </ComponentPageWrap>
     )
   }
 }

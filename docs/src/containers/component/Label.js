@@ -1,7 +1,8 @@
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import {push} from 'react-router-redux'
+
+import ComponentPageWrap from '../../components/ComponentPageWrap'
 
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { monokai } from 'react-syntax-highlighter/dist/styles'
@@ -25,25 +26,27 @@ class LabelPage extends Component {
 
   render() {
     return (
-      <Container size={false}>
-        <h1>Label</h1>
+      <ComponentPageWrap>
+        <Container size={false}>
+          <h1>Label</h1>
+          <Label color={false}>Default</Label>
+          <Label color={'primary'}>Primary</Label>
+          <Label color={'secondary'}>Secondary</Label>
+          <Label color={'info'}>Info</Label>
+          <Label color={'highlight'}>Highlight</Label>
+          <SyntaxHighlighter style={monokai}>
+            {`render() {
+      return (
         <Label color={false}>Default</Label>
         <Label color={'primary'}>Primary</Label>
         <Label color={'secondary'}>Secondary</Label>
         <Label color={'info'}>Info</Label>
         <Label color={'highlight'}>Highlight</Label>
-        <SyntaxHighlighter style={monokai}>
-          {`render() {
-    return (
-      <Label color={false}>Default</Label>
-      <Label color={'primary'}>Primary</Label>
-      <Label color={'secondary'}>Secondary</Label>
-      <Label color={'info'}>Info</Label>
-      <Label color={'highlight'}>Highlight</Label>
-    )
-}`}
-        </SyntaxHighlighter>
-      </Container>
+      )
+  }`}
+          </SyntaxHighlighter>
+        </Container>
+      </ComponentPageWrap>
     )
   }
 }

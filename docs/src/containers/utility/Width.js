@@ -8,12 +8,12 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 
 // components
 import {
-  Alert,
-  AlertStrongText,
   Container,
 } from 'renimbus'
 
-class AlertPage extends Component {
+import UtilityPageWrap from '../../components/UtilityPageWrap'
+
+class WidthPage extends Component {
   // static propTypes = {
   //
   // }
@@ -24,21 +24,26 @@ class AlertPage extends Component {
 
   render() {
     return (
-      <Container size={false}>
-        <h1>Alert</h1>
-        <Alert>
-          <AlertStrongText>Sed ut perspiciatis</AlertStrongText> unde omnis iste natus error sit voluptatem
-        </Alert>
-<SyntaxHighlighter style={monokai}>
-{`render() {
-  return (
-    <Alert>
-      <AlertStrongText>Sed ut perspiciatis</AlertStrongText> unde omnis iste natus error sit voluptatem
-    </Alert>
-  )
+      <UtilityPageWrap>
+        <Container size={false}>
+          <h1>Utility</h1>
+          <h2>Width</h2>
+          <SyntaxHighlighter style={monokai}>
+            {`.u-w-auto {
+  width: auto!important;
+}
+
+.u-w-full {
+  width: 100% !important;
+}
+
+.u-w-half {
+  width: 45% !important;
+  margin: 0 2%;
 }`}
-</SyntaxHighlighter>
-      </Container>
+          </SyntaxHighlighter>
+        </Container>
+      </UtilityPageWrap>
     )
   }
 }
@@ -52,4 +57,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(Object.assign({}, {}), dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AlertPage)
+export default connect(mapStateToProps, mapDispatchToProps)(WidthPage)

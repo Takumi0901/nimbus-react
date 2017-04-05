@@ -1,0 +1,163 @@
+import { bindActionCreators } from 'redux'
+import React, { Component, PropTypes } from 'react'
+import { connect } from 'react-redux'
+import {push} from 'react-router-redux'
+
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { monokai } from 'react-syntax-highlighter/dist/styles'
+
+// components
+import {
+  Container,
+} from 'renimbus'
+
+import UtilityPageWrap from '../../components/UtilityPageWrap'
+
+class MarginPage extends Component {
+  // static propTypes = {
+  //
+  // }
+
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return (
+      <UtilityPageWrap>
+        <Container size={false}>
+          <h1>Utility</h1>
+          <h2>Margin</h2>
+          <SyntaxHighlighter style={monokai}>
+            {`.u-m-c {
+  margin: 0 auto;
+}
+
+.u-mt-0 {
+  margin-top: 0;
+}
+
+.u-mt-8 {
+  margin-top: var(--baseMargin);
+}
+
+.u-mt-16 {
+  margin-top: calc(var(--baseMargin) * 2);
+}
+
+.u-mt-24 {
+  margin-top: calc(var(--baseMargin) * 3);
+}
+
+.u-mt-32 {
+  margin-top: calc(var(--baseMargin) * 4);
+}
+
+.u-mt-40 {
+  margin-top: calc(var(--baseMargin) * 5);
+}
+
+.u-mt-48 {
+  margin-top: calc(var(--baseMargin) * 6);
+}
+
+.u-mr-0 {
+  margin-right: 0;
+}
+
+.u-mr-8 {
+  margin-right: var(--baseMargin);
+}
+
+.u-mr-16 {
+  margin-right: calc(var(--baseMargin) * 2);
+}
+
+.u-mr-24 {
+  margin-right: calc(var(--baseMargin) * 3);
+}
+
+.u-mr-32 {
+  margin-right: calc(var(--baseMargin) * 4);
+}
+
+.u-mr-40 {
+  margin-right: calc(var(--baseMargin) * 5);
+}
+
+.u-mr-48 {
+  margin-right: calc(var(--baseMargin) * 6);
+}
+
+.u-mb-0 {
+  margin-bottom: 0;
+}
+
+.u-mb-8 {
+  margin-bottom: var(--baseMargin);
+}
+
+.u-mb-16 {
+  margin-bottom: calc(var(--baseMargin) * 2);
+}
+
+.u-mb-24 {
+  margin-bottom: calc(var(--baseMargin) * 3);
+}
+
+.u-mb-32 {
+  margin-bottom: calc(var(--baseMargin) * 4);
+}
+
+.u-mb-40 {
+  margin-bottom: calc(var(--baseMargin) * 5);
+}
+
+.u-mb-48 {
+  margin-bottom: calc(var(--baseMargin) * 6);
+}
+
+.u-ml-0 {
+  margin-left: 0;
+}
+
+.u-ml-8 {
+  margin-left: var(--baseMargin);
+}
+
+.u-ml-16 {
+  margin-left: calc(var(--baseMargin) * 2);
+}
+
+.u-ml-24 {
+  margin-left: calc(var(--baseMargin) * 3);
+}
+
+.u-ml-32 {
+  margin-left: calc(var(--baseMargin) * 4);
+}
+
+.u-ml-40 {
+  margin-left: calc(var(--baseMargin) * 5);
+}
+
+.u-ml-48 {
+  margin-left: calc(var(--baseMargin) * 6);
+}`}
+          </SyntaxHighlighter>
+        </Container>
+      </UtilityPageWrap>
+    )
+  }
+}
+
+function mapStateToProps(state) {
+  return {
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators(Object.assign({}, {}), dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(MarginPage)

@@ -1,7 +1,8 @@
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import {push} from 'react-router-redux'
+
+import ComponentPageWrap from '../../components/ComponentPageWrap'
 
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { monokai } from 'react-syntax-highlighter/dist/styles'
@@ -25,35 +26,37 @@ class AvatarPage extends Component {
 
   render() {
     return (
-      <Container size={false}>
-        <h1>Avatar</h1>
+      <ComponentPageWrap>
+        <Container size={false}>
+          <h1>Avatar</h1>
+          <Avatar size={'medium'}>
+            <img src="image/thumb.jpg" alt=""/>
+          </Avatar>
+  <SyntaxHighlighter style={monokai}>
+  {`render() {
+      return (
         <Avatar size={'medium'}>
           <img src="image/thumb.jpg" alt=""/>
         </Avatar>
-<SyntaxHighlighter style={monokai}>
-{`render() {
-    return (
-      <Avatar size={'medium'}>
-        <img src="image/thumb.jpg" alt=""/>
-      </Avatar>
-    )
-}`}
-</SyntaxHighlighter>
+      )
+  }`}
+  </SyntaxHighlighter>
 
-        <h2>Modifier</h2>
-        <Table type={'basic'}>
-          <tbody>
-            <tr>
-              <th>shadow</th>
-              <td>top  ||  bottom</td>
-            </tr>
-            <tr>
-              <th>size</th>
-              <td>small  ||  medium</td>
-            </tr>
-          </tbody>
-        </Table>
-      </Container>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+              <tr>
+                <th>shadow</th>
+                <td>top  ||  bottom</td>
+              </tr>
+              <tr>
+                <th>size</th>
+                <td>small  ||  medium</td>
+              </tr>
+            </tbody>
+          </Table>
+        </Container>
+      </ComponentPageWrap>
     )
   }
 }

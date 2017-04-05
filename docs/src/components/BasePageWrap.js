@@ -19,18 +19,20 @@ export default class BasePageWrap extends React.Component {
 
   render() {
     return (
-      <Grid gutters={true}>
-        <GridCol size={9}>
-          <Container>
-            {this.props.children}
-          </Container>
-        </GridCol>
-        <GridCol size={3}>
-          <Container>
-            <SideMenu/>
-          </Container>
-        </GridCol>
-      </Grid>
+      <div className="l-wrapper">
+        <Grid gutters={true}>
+          <GridCol size={9}>
+            <Container>
+              {this.props.children}
+            </Container>
+          </GridCol>
+          <GridCol size={3}>
+            <Container>
+              <SideMenu/>
+            </Container>
+          </GridCol>
+        </Grid>
+      </div>
     )
   }
 }

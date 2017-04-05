@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 
 import App from './App'
+import HomePage from './Home'
 import StartPage from './Start'
 import AlertPage from './component/Alert'
 import AvatarPage from './component/Avatar'
@@ -80,8 +81,9 @@ class Root extends Component {
       <Provider store={store}>
         <Router>
           <App>
-            <Route exact path="/alert" component={AlertPage}/>
+            <Route exact path="/" component={HomePage}/>
             <Route exact path="/start" component={StartPage}/>
+            <Route exact path="/alert" component={AlertPage}/>
             <Route exact path="/avatar" component={AvatarPage}/>
             <Route exact path="/bar" component={BarPage}/>
             <Route exact path="/button" component={ButtonPage}/>

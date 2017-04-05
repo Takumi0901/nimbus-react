@@ -19,18 +19,20 @@ export default class JsPageWrap extends React.Component {
 
   render() {
     return (
-      <Grid gutters={true}>
-        <GridCol size={9}>
-          <Container fixed={true}>
-            {this.props.children}
-          </Container>
-        </GridCol>
-        <GridCol size={3}>
-          <Container fixed={true}>
-            <SideMenu/>
-          </Container>
-        </GridCol>
-      </Grid>
+      <div className="l-wrapper">
+        <Grid gutters={true}>
+          <GridCol size={9}>
+            <Container fixed={true}>
+              {this.props.children}
+            </Container>
+          </GridCol>
+          <GridCol size={3}>
+            <Container fixed={true}>
+              <SideMenu/>
+            </Container>
+          </GridCol>
+        </Grid>
+      </div>
     )
   }
 }

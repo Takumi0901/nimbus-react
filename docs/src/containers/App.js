@@ -6,16 +6,9 @@ import { connect } from 'react-redux'
 import {push} from 'react-router-redux'
 
 import {
-  BrowserRouter as Router,
-  Route,
-  Link
+  BrowserRouter as Router
 } from 'react-router-dom'
 
-// components
-import {
-  Grid,
-  GridCol
-} from 'renimbus'
 
 import Header from '../components/Header'
 
@@ -33,8 +26,9 @@ class App extends Component {
     <Router>
       <div>
         <Header/>
-        <div className="l-wrapper">
-          {this.props.children}
+        {this.props.children}
+        <div className="l-footer js-footer">
+          <p>© 2015 - 2017 イチマルニデザイン</p>
         </div>
       </div>
     </Router>

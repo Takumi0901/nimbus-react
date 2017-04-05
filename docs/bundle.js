@@ -37804,7 +37804,7 @@
 	              { size: 9 },
 	              _react2.default.createElement(
 	                _renimbus.Container,
-	                { size: 'full' },
+	                null,
 	                _react2.default.createElement(
 	                  _renimbus.ButtonLink,
 	                  { href: 'https://github.com/Takumi0901/renimbus', color: 'primary', size: 'large' },
@@ -37813,7 +37813,7 @@
 	              ),
 	              _react2.default.createElement(
 	                _renimbus.Container,
-	                { size: 'full' },
+	                null,
 	                _react2.default.createElement(
 	                  'h2',
 	                  null,
@@ -37881,7 +37881,7 @@
 	              ),
 	              _react2.default.createElement(
 	                _renimbus.Container,
-	                { size: 'full' },
+	                null,
 	                _react2.default.createElement(
 	                  'h2',
 	                  null,
@@ -37900,7 +37900,7 @@
 	              ),
 	              _react2.default.createElement(
 	                _renimbus.Container,
-	                { size: 'full' },
+	                null,
 	                _react2.default.createElement(
 	                  'h2',
 	                  null,

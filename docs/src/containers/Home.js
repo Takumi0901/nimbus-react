@@ -39,10 +39,10 @@ class Home extends Component {
         <div className="l-wrapper">
           <Grid gutters={true} query={true} align={'center'}>
             <GridCol size={9}>
-              <Container size={'full'}>
+              <Container>
                 <ButtonLink href={'https://github.com/Takumi0901/renimbus'} color={'primary'} size={'large'}>View on GitHub</ButtonLink>
               </Container>
-              <Container size={'full'}>
+              <Container>
                 <h2>The feature of Nimbus</h2>
                 <p>component which can be used in a project of React + Redux in general-purpose way mainly was made.</p>
                 <h3>PostCSS</h3>
@@ -60,7 +60,7 @@ class Home extends Component {
                 <h3>Component which is often used was collected.</h3>
                 <p>component which is often used by a corporate site was collected. It's possible to button up the favorite color and size by changing the color and the size which become a basis.</p>
               </Container>
-              <Container size={'full'}>
+              <Container>
                 <h2>CSS Architecture</h2>
                 <p>The architecture of CSS in Nimbus is based on FLOCSS. There is variables.css which manages a variable of CSS by a core directory. It's made compilation now using Gulp.</p>
 <SyntaxHighlighter style={monokai}>
@@ -73,7 +73,7 @@ class Home extends Component {
   └ utility/`}
 </SyntaxHighlighter>
               </Container>
-              <Container size={'full'}>
+              <Container>
                 <h2>License</h2>
                 <p>Nimbus licensed under MIT. Nimbus is absolutely free for personal or commercial use.</p>
               </Container>

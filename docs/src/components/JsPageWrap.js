@@ -9,9 +9,9 @@ import {
   Container
 } from 'renimbus'
 
-import SideMenu from './ComponentPageSideMenu'
+import SideMenu from './JsPageSideMenu'
 
-export default class ComponentPageWrap extends React.Component {
+export default class JsPageWrap extends React.Component {
 
   constructor(props) {
     super(props)

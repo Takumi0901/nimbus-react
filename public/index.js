@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Text = exports.Table = exports.NavItem = exports.Nav = exports.MenuListItem = exports.MenuList = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
+exports.Text = exports.Table = exports.TabBody = exports.TabBtn = exports.TabMenu = exports.Tab = exports.NavItem = exports.Nav = exports.MenuListItem = exports.MenuList = exports.MediaContent = exports.Media = exports.Label = exports.Hero = exports.GridCol = exports.Grid = exports.FormInputBox = exports.FormTitle = exports.Form = exports.Container = exports.Clamp = exports.CardBottom = exports.CardContent = exports.CardHeader = exports.Card = exports.ButtonLink = exports.Button = exports.Bar = exports.Avatar = exports.AlertStrongText = exports.Alert = undefined;
 
 var _Alert = require('./component/Alert.js');
 
@@ -105,6 +105,22 @@ var _NavItem = require('./component/NavItem.js');
 
 var _NavItem2 = _interopRequireDefault(_NavItem);
 
+var _Tab = require('./component/Tab.js');
+
+var _Tab2 = _interopRequireDefault(_Tab);
+
+var _TabMenu = require('./component/TabMenu.js');
+
+var _TabMenu2 = _interopRequireDefault(_TabMenu);
+
+var _TabBtn = require('./component/TabBtn.js');
+
+var _TabBtn2 = _interopRequireDefault(_TabBtn);
+
+var _TabBody = require('./component/TabBody.js');
+
+var _TabBody2 = _interopRequireDefault(_TabBody);
+
 var _Table = require('./component/Table.js');
 
 var _Table2 = _interopRequireDefault(_Table);
@@ -140,5 +156,9 @@ exports.MenuList = _MenuList2.default;
 exports.MenuListItem = _MenuListItem2.default;
 exports.Nav = _Nav2.default;
 exports.NavItem = _NavItem2.default;
+exports.Tab = _Tab2.default;
+exports.TabMenu = _TabMenu2.default;
+exports.TabBtn = _TabBtn2.default;
+exports.TabBody = _TabBody2.default;
 exports.Table = _Table2.default;
 exports.Text = _Text2.default;

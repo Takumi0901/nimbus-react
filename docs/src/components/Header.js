@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                 <NavItem><Link to="/start">Getting start</Link></NavItem>
                 <NavItem><Link to="/heading">Base</Link></NavItem>
                 <NavItem><Link to="/alert">Component</Link></NavItem>
-                <NavItem><Link to="/js">JavaScript</Link></NavItem>
+                <NavItem><Link to="/tab">JavaScript</Link></NavItem>
                 <NavItem><Link to="/border">Utility</Link></NavItem>
               </Nav>
             </GridCol>

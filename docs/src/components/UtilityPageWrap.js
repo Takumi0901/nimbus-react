@@ -21,12 +21,12 @@ export default class UtilityPageWrap extends React.Component {
     return (
       <Grid gutters={true}>
         <GridCol size={9}>
-          <Container>
+          <Container fixed={true}>
             {this.props.children}
           </Container>
         </GridCol>
         <GridCol size={3}>
-          <Container>
+          <Container fixed={true}>
             <SideMenu/>
           </Container>
         </GridCol>

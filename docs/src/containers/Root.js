@@ -47,6 +47,7 @@ import TtPage from './utility/Tt'
 import VaPage from './utility/Va'
 import WsPage from './utility/Ws'
 import WidthPage from './utility/Width'
+import TabPage from './js/Tab'
 
 
 class Root extends Component {
@@ -115,6 +116,7 @@ class Root extends Component {
             <Route exact path="/va" component={VaPage}/>
             <Route exact path="/ws" component={WsPage}/>
             <Route exact path="/width" component={WidthPage}/>
+            <Route exact path="/tab" component={TabPage}/>
           </App>
         </Router>
       </Provider>

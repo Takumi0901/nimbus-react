@@ -48,6 +48,10 @@ class ContainerPage extends Component {
               <th>size</th>
               <td>small  ||  full</td>
             </tr>
+            <tr>
+              <th>fixed</th>
+              <td>true  ||  false</td>
+            </tr>
             </tbody>
           </Table>
 

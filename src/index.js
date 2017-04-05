@@ -23,6 +23,10 @@ import MenuList from './component/MenuList.js'
 import MenuListItem from './component/MenuListItem.js'
 import Nav from './component/Nav.js'
 import NavItem from './component/NavItem.js'
+import Tab from './component/Tab.js'
+import TabMenu from './component/TabMenu.js'
+import TabBtn from './component/TabBtn.js'
+import TabBody from './component/TabBody.js'
 import Table from './component/Table.js'
 import Text from './component/Text.js'
 
@@ -51,7 +55,11 @@ export {
   MenuList,
   MenuListItem,
   Nav,
-  NavItem ,
+  NavItem,
+  Tab,
+  TabMenu,
+  TabBtn,
+  TabBody,
   Table,
   Text
 }

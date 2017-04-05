@@ -22,28 +22,28 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Container = function (_Component) {
-  _inherits(Container, _Component);
+var TabBody = function (_Component) {
+  _inherits(TabBody, _Component);
 
-  function Container() {
-    _classCallCheck(this, Container);
+  function TabBody() {
+    _classCallCheck(this, TabBody);
 
-    return _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (TabBody.__proto__ || Object.getPrototypeOf(TabBody)).apply(this, arguments));
   }
 
-  _createClass(Container, [{
+  _createClass(TabBody, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-container', this.props.size && 'c-container--' + this.props.size, this.props.fixed && 'c-container--fixed', this.props.classes) },
+          className: (0, _classnames2.default)('c-tab__body', this.props.classes) },
         this.props.children
       );
     }
   }]);
 
-  return Container;
+  return TabBody;
 }(_react.Component);
 
-exports.default = Container;
+exports.default = TabBody;

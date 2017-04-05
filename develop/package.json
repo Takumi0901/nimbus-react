@@ -1,5 +1,5 @@
 {
-  "name": "renimbus",
+  "name": "renimbus develop",
   "version": "0.0.1",
   "description": "",
   "main": "./public/bundle.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Takumi0901/react-redux-webpack.git"
+    "url": "git+https://github.com/Takumi0901/renimbus.git"
   },
   "author": "",
   "license": "ISC",

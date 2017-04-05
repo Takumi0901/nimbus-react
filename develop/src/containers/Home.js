@@ -28,7 +28,7 @@ class Home extends Component {
     return (
       <div>
         <Hero type={'image'} anim={false} image={'image/hero.jpg'} classes="u-ta-c">
-          <h2><img src="image/logo-white.png" alt="" width="300"/></h2>
+          <h2><img src="./image/logo-white.png" alt="" width="300"/></h2>
           <p className="u-fz-18 u-mb-0">
             A design system made for React.js
           </p>

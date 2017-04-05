@@ -81,46 +81,46 @@ class Root extends Component {
       <Provider store={store}>
         <Router>
           <App>
-            <Route exact path="/" component={HomePage}/>
-            <Route exact path="/start" component={StartPage}/>
-            <Route exact path="/alert" component={AlertPage}/>
-            <Route exact path="/avatar" component={AvatarPage}/>
-            <Route exact path="/bar" component={BarPage}/>
-            <Route exact path="/button" component={ButtonPage}/>
-            <Route exact path="/card" component={CardPage}/>
-            <Route exact path="/clamp" component={ClampPage}/>
-            <Route exact path="/container" component={ContainerPage}/>
-            <Route exact path="/form" component={FormPage}/>
-            <Route exact path="/grid" component={GridPage}/>
-            <Route exact path="/hero" component={HeroPage}/>
-            <Route exact path="/label" component={LabelPage}/>
-            <Route exact path="/media" component={MediaPage}/>
-            <Route exact path="/menu" component={MenuListPage}/>
-            <Route exact path="/nav" component={NavPage}/>
-            <Route exact path="/table" component={TablePage}/>
-            <Route exact path="/text" component={TextPage}/>
-            <Route exact path="/heading" component={HeadingPage}/>
-            <Route exact path="/paragraph" component={ParagraphPage}/>
-            <Route exact path="/address" component={AddressPage}/>
-            <Route exact path="/list" component={ListPage}/>
-            <Route exact path="/dl" component={DlPage}/>
-            <Route exact path="/anchor" component={AnchorPage}/>
-            <Route exact path="/border" component={BorderPage}/>
-            <Route exact path="/cf" component={ClearFixPage}/>
-            <Route exact path="/display" component={DisplayPage}/>
-            <Route exact path="/fs" component={FsPage}/>
-            <Route exact path="/margin" component={MarginPage}/>
-            <Route exact path="/misc" component={MiscPage}/>
-            <Route exact path="/padding" component={PaddingPage}/>
-            <Route exact path="/position" component={PositionPage}/>
-            <Route exact path="/ta" component={TaPage}/>
-            <Route exact path="/td" component={TdPage}/>
-            <Route exact path="/tt" component={TtPage}/>
-            <Route exact path="/va" component={VaPage}/>
-            <Route exact path="/ws" component={WsPage}/>
-            <Route exact path="/width" component={WidthPage}/>
-            <Route exact path="/tab" component={TabPage}/>
-            <Route exact path="/modal" component={ModalPage}/>
+            <Route path="/" component={HomePage}/>
+            <Route path="/start" component={StartPage}/>
+            <Route path="/alert" component={AlertPage}/>
+            <Route path="/avatar" component={AvatarPage}/>
+            <Route path="/bar" component={BarPage}/>
+            <Route path="/button" component={ButtonPage}/>
+            <Route path="/card" component={CardPage}/>
+            <Route path="/clamp" component={ClampPage}/>
+            <Route path="/container" component={ContainerPage}/>
+            <Route path="/form" component={FormPage}/>
+            <Route path="/grid" component={GridPage}/>
+            <Route path="/hero" component={HeroPage}/>
+            <Route path="/label" component={LabelPage}/>
+            <Route path="/media" component={MediaPage}/>
+            <Route path="/menu" component={MenuListPage}/>
+            <Route path="/nav" component={NavPage}/>
+            <Route path="/table" component={TablePage}/>
+            <Route path="/text" component={TextPage}/>
+            <Route path="/heading" component={HeadingPage}/>
+            <Route path="/paragraph" component={ParagraphPage}/>
+            <Route path="/address" component={AddressPage}/>
+            <Route path="/list" component={ListPage}/>
+            <Route path="/dl" component={DlPage}/>
+            <Route path="/anchor" component={AnchorPage}/>
+            <Route path="/border" component={BorderPage}/>
+            <Route path="/cf" component={ClearFixPage}/>
+            <Route path="/display" component={DisplayPage}/>
+            <Route path="/fs" component={FsPage}/>
+            <Route path="/margin" component={MarginPage}/>
+            <Route path="/misc" component={MiscPage}/>
+            <Route path="/padding" component={PaddingPage}/>
+            <Route path="/position" component={PositionPage}/>
+            <Route path="/ta" component={TaPage}/>
+            <Route path="/td" component={TdPage}/>
+            <Route path="/tt" component={TtPage}/>
+            <Route path="/va" component={VaPage}/>
+            <Route path="/ws" component={WsPage}/>
+            <Route path="/width" component={WidthPage}/>
+            <Route path="/tab" component={TabPage}/>
+            <Route path="/modal" component={ModalPage}/>
           </App>
         </Router>
       </Provider>

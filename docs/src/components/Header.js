@@ -30,7 +30,7 @@ export default class Header extends React.Component {
                 <NavItem><Link to="/globalmenu">Menu</Link></NavItem>
               </Nav>
               <Nav size={'medium'} classes="u-d-pc">
-                <NavItem><Link to="/renimbus">Home</Link></NavItem>
+                <NavItem><Link to="/nimbus-react">Home</Link></NavItem>
                 <NavItem><Link to="/start">Getting start</Link></NavItem>
                 <NavItem><Link to="/heading">Base</Link></NavItem>
                 <NavItem><Link to="/alert">Component</Link></NavItem>

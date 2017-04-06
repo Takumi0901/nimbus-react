@@ -30470,7 +30470,7 @@
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
-	                    { to: '/renimbus' },
+	                    { to: '/nimbus-react' },
 	                    'Home'
 	                  )
 	                ),

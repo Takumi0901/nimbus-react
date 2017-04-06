@@ -45,6 +45,8 @@ class Home extends Component {
               <Container>
                 <h2>The feature of Nimbus</h2>
                 <p>component which can be used in a project of React + Redux in general-purpose way mainly was made.</p>
+                <h3>About State management</h3>
+                <p>I wanted to make sure that it can correspond flexibly according to the project, so State isn't being managed at Nimbus-react library. The policy State manages respectively in Redux in the project.</p>
                 <h3>PostCSS</h3>
                 <p>CSS is being changed using PostCSS in Nimbus.CSS holds a used plug-in at a minimum to avoid the one of being too to will be in the original specification.</p>
                 <h4>Plugin</h4>

@@ -37827,6 +37827,16 @@
 	                _react2.default.createElement(
 	                  'h3',
 	                  null,
+	                  'About State management'
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'I wanted to make sure that it can correspond flexibly according to the project, so State isn\'t being managed at Nimbus-react library. The policy State manages respectively in Redux in the project.'
+	                ),
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
 	                  'PostCSS'
 	                ),
 	                _react2.default.createElement(

@@ -32,6 +32,10 @@ export default class App extends React.Component {
 
 ```
 
+## About State management
+
+I wanted to make sure that it can correspond flexibly according to the project, so State isn't being managed at Nimbus-react library. The policy State manages respectively in Redux in the project.
+
 ## PostCSS
 
 CSS is being changed using PostCSS in Nimbus.CSS holds a used plug-in at a minimum to avoid the one of being too to will be in the original specification.

@@ -10,7 +10,9 @@
     "start": "npm run watch:babel & npm run watch:css",
     "watch:babel": "npm run clean && ./node_modules/.bin/babel ./src --out-dir ./public -w",
     "watch:css": "npm run clean && postcss --u postcss-import postcss-cssnext cssnano --dir public/css/ src/styles/*.css -w",
-    "clean": "rimraf ./public"
+    "clean": "rimraf ./public",
+    "tag": "git tag v$npm_package_version",
+    "release": "git commit package.json -m \"Version $npm_package_version\" && npm run tag && git push && git push origin master --tags && npm publish"
   },
   "repository": {
     "type": "git",

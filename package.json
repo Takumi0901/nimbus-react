@@ -1,6 +1,6 @@
 {
   "name": "nimbus-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./public/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/Takumi0901/nimbus-react.git"
   },
-  "author": "",
+  "author": "Takumi0901 <juventus0901@gmail.com> (https://github.com/Takumi0901)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.0",

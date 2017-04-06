@@ -11,7 +11,7 @@ import {
   Grid,
   GridCol,
   Container
-} from 'renimbus'
+} from 'nimbus-react'
 
 class StartPage extends Component {
   // static propTypes = {

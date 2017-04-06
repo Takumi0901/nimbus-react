@@ -14,7 +14,7 @@ import {
   NavItem,
   Container,
   Table
-} from 'renimbus'
+} from 'nimbus-react'
 
 class NavPage extends Component {
   // static propTypes = {

@@ -14,7 +14,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class GridPage extends Component {
   // static propTypes = {

@@ -13,7 +13,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class HeroPage extends Component {
   // static propTypes = {
@@ -54,7 +54,7 @@ class HeroPage extends Component {
 
           <Container size={'full'}>
             <h2>Image</h2>
-            <Hero type={'image'} anim={false} image={'/renimbus/public/image/hero.jpg'}>
+            <Hero type={'image'} anim={false} image={'/nimbus-react/public/image/hero.jpg'}>
               <h2 className="c-text--white">Hero Title</h2>
               <p className="u-mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia

@@ -9,7 +9,7 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 // components
 import {
   Container,
-} from 'renimbus'
+} from 'nimbus-react'
 
 import UtilityPageWrap from '../../components/UtilityPageWrap'
 

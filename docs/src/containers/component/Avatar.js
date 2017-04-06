@@ -13,7 +13,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class AvatarPage extends Component {
   // static propTypes = {
@@ -30,7 +30,7 @@ class AvatarPage extends Component {
         <Container size={false}>
           <h1>Avatar</h1>
           <Avatar size={'medium'}>
-            <img src="/renimbus/public/image/thumb.jpg" alt=""/>
+            <img src="/nimbus-react/public/image/thumb.jpg" alt=""/>
           </Avatar>
   <SyntaxHighlighter style={monokai}>
   {`render() {

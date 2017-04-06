@@ -26469,7 +26469,7 @@
 	          _react2.default.createElement(
 	            _App2.default,
 	            null,
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/renimbus/', component: _Home2.default }),
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/nimbus-react/', component: _Home2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/globalmenu', component: _Menu2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/start', component: _Start2.default }),
 	            _react2.default.createElement(_reactRouterDom.Route, { path: '/alert', component: _Alert2.default }),
@@ -30399,7 +30399,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30428,32 +30428,32 @@
 	        'header',
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Bar,
+	          _nimbusReact.Bar,
 	          { shadow: 'bottom', size: 'medium', color: false, fixed: true },
 	          _react2.default.createElement(
-	            _renimbus.Grid,
+	            _nimbusReact.Grid,
 	            { gutters: true, align: 'between' },
 	            _react2.default.createElement(
-	              _renimbus.GridCol,
+	              _nimbusReact.GridCol,
 	              null,
 	              _react2.default.createElement(
 	                'h1',
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
-	                  { to: '/renimbus' },
-	                  _react2.default.createElement('img', { src: '/renimbus/public/image/logo.png', alt: '', width: '140' })
+	                  { to: '/nimbus-react' },
+	                  _react2.default.createElement('img', { src: '/nimbus-react/public/image/logo.png', alt: '', width: '140' })
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.GridCol,
+	              _nimbusReact.GridCol,
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Nav,
+	                _nimbusReact.Nav,
 	                { size: 'medium', classes: 'u-d-sp' },
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30463,10 +30463,10 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.Nav,
+	                _nimbusReact.Nav,
 	                { size: 'medium', classes: 'u-d-pc' },
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30475,7 +30475,7 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30484,7 +30484,7 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30493,7 +30493,7 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30502,7 +30502,7 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -30511,7 +30511,7 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  _renimbus.NavItem,
+	                  _nimbusReact.NavItem,
 	                  null,
 	                  _react2.default.createElement(
 	                    _reactRouterDom.Link,
@@ -37254,7 +37254,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37287,13 +37287,13 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { classes: 'u-mt-32' },
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37304,7 +37304,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          null,
 	          _react2.default.createElement(
 	            'h1',
@@ -37312,10 +37312,10 @@
 	            'Base'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37324,7 +37324,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37333,7 +37333,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37342,7 +37342,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37351,7 +37351,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37360,7 +37360,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37371,7 +37371,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          null,
 	          _react2.default.createElement(
 	            'h1',
@@ -37379,10 +37379,10 @@
 	            'Component'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37391,7 +37391,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37400,7 +37400,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37409,7 +37409,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37418,7 +37418,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37427,7 +37427,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37436,7 +37436,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37445,7 +37445,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37454,7 +37454,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37463,7 +37463,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37472,7 +37472,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37481,7 +37481,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37490,7 +37490,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37499,7 +37499,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37508,7 +37508,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37517,7 +37517,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37528,7 +37528,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          null,
 	          _react2.default.createElement(
 	            'h1',
@@ -37536,10 +37536,10 @@
 	            'JavaScript'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37548,7 +37548,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37559,7 +37559,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          null,
 	          _react2.default.createElement(
 	            'h1',
@@ -37567,10 +37567,10 @@
 	            'Utility'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37579,7 +37579,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37588,7 +37588,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37597,7 +37597,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37606,7 +37606,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37615,7 +37615,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37624,7 +37624,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37633,7 +37633,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37642,7 +37642,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37651,7 +37651,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37660,7 +37660,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37669,7 +37669,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37678,7 +37678,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37687,7 +37687,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -37742,7 +37742,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37775,12 +37775,12 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Hero,
-	          { type: 'image', anim: false, image: '/renimbus/public/image/hero.jpg', classes: 'u-ta-c' },
+	          _nimbusReact.Hero,
+	          { type: 'image', anim: false, image: '/nimbus-react/public/image/hero.jpg', classes: 'u-ta-c' },
 	          _react2.default.createElement(
 	            'h2',
 	            null,
-	            _react2.default.createElement('img', { src: '/renimbus/public/image/logo-white.png', alt: '', width: '300' })
+	            _react2.default.createElement('img', { src: '/nimbus-react/public/image/logo-white.png', alt: '', width: '300' })
 	          ),
 	          _react2.default.createElement(
 	            'p',
@@ -37797,22 +37797,22 @@
 	          'div',
 	          { className: 'l-wrapper' },
 	          _react2.default.createElement(
-	            _renimbus.Grid,
+	            _nimbusReact.Grid,
 	            { gutters: true, query: true, align: 'center' },
 	            _react2.default.createElement(
-	              _renimbus.GridCol,
+	              _nimbusReact.GridCol,
 	              { size: 9 },
 	              _react2.default.createElement(
-	                _renimbus.Container,
+	                _nimbusReact.Container,
 	                null,
 	                _react2.default.createElement(
-	                  _renimbus.ButtonLink,
-	                  { href: 'https://github.com/Takumi0901/renimbus', color: 'primary', size: 'large' },
+	                  _nimbusReact.ButtonLink,
+	                  { href: 'https://github.com/Takumi0901/nimbus-react', color: 'primary', size: 'large' },
 	                  'View on GitHub'
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.Container,
+	                _nimbusReact.Container,
 	                null,
 	                _react2.default.createElement(
 	                  'h2',
@@ -37880,7 +37880,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.Container,
+	                _nimbusReact.Container,
 	                null,
 	                _react2.default.createElement(
 	                  'h2',
@@ -37899,7 +37899,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.Container,
+	                _nimbusReact.Container,
 	                null,
 	                _react2.default.createElement(
 	                  'h2',
@@ -65306,7 +65306,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65339,13 +65339,13 @@
 	        'div',
 	        { className: 'l-wrapper' },
 	        _react2.default.createElement(
-	          _renimbus.Grid,
+	          _nimbusReact.Grid,
 	          { gutters: true, query: true, align: 'center' },
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 9 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              null,
 	              _react2.default.createElement(
 	                'h1',
@@ -65405,7 +65405,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _ComponentPageWrap = __webpack_require__(636);
 
@@ -65442,7 +65442,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -65450,10 +65450,10 @@
 	            'Alert'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Alert,
+	            _nimbusReact.Alert,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.AlertStrongText,
+	              _nimbusReact.AlertStrongText,
 	              null,
 	              'Sed ut perspiciatis'
 	            ),
@@ -65500,7 +65500,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _ComponentPageSideMenu = __webpack_require__(637);
 
@@ -65533,22 +65533,22 @@
 	        'div',
 	        { className: 'l-wrapper' },
 	        _react2.default.createElement(
-	          _renimbus.Grid,
+	          _nimbusReact.Grid,
 	          { gutters: true, query: true },
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 9 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true },
 	              this.props.children
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 3 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true, classes: 'u-d-pc' },
 	              _react2.default.createElement(_ComponentPageSideMenu2.default, null)
 	            )
@@ -65581,7 +65581,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65607,10 +65607,10 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        _renimbus.MenuList,
+	        _nimbusReact.MenuList,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65619,7 +65619,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65628,7 +65628,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65637,7 +65637,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65646,7 +65646,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65655,7 +65655,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65664,7 +65664,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65673,7 +65673,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65682,7 +65682,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65691,7 +65691,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65700,7 +65700,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65709,7 +65709,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65718,7 +65718,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65727,7 +65727,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65736,7 +65736,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65745,7 +65745,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -65792,7 +65792,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65825,7 +65825,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -65833,9 +65833,9 @@
 	            'Avatar'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Avatar,
+	            _nimbusReact.Avatar,
 	            { size: 'medium' },
-	            _react2.default.createElement('img', { src: '/renimbus/public/image/thumb.jpg', alt: '' })
+	            _react2.default.createElement('img', { src: '/nimbus-react/public/image/thumb.jpg', alt: '' })
 	          ),
 	          _react2.default.createElement(
 	            _reactSyntaxHighlighter2.default,
@@ -65848,7 +65848,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -65931,7 +65931,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65964,7 +65964,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -65972,7 +65972,7 @@
 	            'Bar'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Bar,
+	            _nimbusReact.Bar,
 	            { shadow: 'bottom', size: 'large', color: false, fixed: false },
 	            'Sed ut perspiciatis'
 	          ),
@@ -65987,7 +65987,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -66098,7 +66098,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -66131,7 +66131,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -66139,13 +66139,13 @@
 	            'Bar'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'p',
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: false, size: false },
@@ -66153,7 +66153,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.ButtonLink,
+	                _nimbusReact.ButtonLink,
 	                { href: '/', color: false, size: false },
 	                'Link'
 	              )
@@ -66165,13 +66165,13 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'p',
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: false, size: false },
@@ -66179,7 +66179,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: false },
@@ -66187,7 +66187,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'secondary', size: false },
@@ -66195,7 +66195,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'info', size: false },
@@ -66203,7 +66203,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'highlight', size: false },
@@ -66217,13 +66217,13 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'p',
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: 'jumbo' },
@@ -66231,7 +66231,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: 'large' },
@@ -66239,7 +66239,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: false },
@@ -66247,7 +66247,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: 'small' },
@@ -66255,7 +66255,7 @@
 	              ),
 	              '\xA0',
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
 	                  }, color: 'primary', size: 'tiny' },
@@ -66269,13 +66269,13 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'p',
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                {
 	                  onClickAction: function onClickAction() {
 	                    console.log('hgoehgoe');
@@ -66298,7 +66298,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -66395,7 +66395,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -66428,7 +66428,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -66436,10 +66436,10 @@
 	            'Card'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Card,
+	            _nimbusReact.Card,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.CardHeader,
+	              _nimbusReact.CardHeader,
 	              null,
 	              _react2.default.createElement(
 	                'h3',
@@ -66448,7 +66448,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.CardContent,
+	              _nimbusReact.CardContent,
 	              null,
 	              _react2.default.createElement(
 	                'p',
@@ -66457,7 +66457,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.CardBottom,
+	              _nimbusReact.CardBottom,
 	              null,
 	              _react2.default.createElement(
 	                'p',
@@ -66519,7 +66519,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -66552,7 +66552,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -66560,7 +66560,7 @@
 	            'Clamp'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Clamp,
+	            _nimbusReact.Clamp,
 	            { size: 2 },
 	            'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	          ),
@@ -66575,7 +66575,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -66644,7 +66644,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -66677,7 +66677,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -66685,7 +66685,7 @@
 	            'Container'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: false },
 	            'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	          ),
@@ -66700,7 +66700,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -66783,7 +66783,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -66816,7 +66816,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -66824,15 +66824,15 @@
 	            'Form'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Form,
+	            _nimbusReact.Form,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.FormTitle,
+	              _nimbusReact.FormTitle,
 	              { required: '必須' },
 	              'Input Title'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.FormInputBox,
+	              _nimbusReact.FormInputBox,
 	              { error: '必須項目' },
 	              _react2.default.createElement('input', { type: 'text', placeholder: 'Input' })
 	            )
@@ -66843,7 +66843,7 @@
 	            'render() {\n      return (\n        <Form>\n          <FormTitle required={\'\u5FC5\u9808\'}>Input Title</FormTitle>\n          <FormInputBox error={\'\u5FC5\u9808\u9805\u76EE\'}>\n            <input type="text" placeholder={\'Input\'}/>\n          </FormInputBox>\n        </Form>\n      )\n  }'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -66851,7 +66851,7 @@
 	              'Modifier'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Table,
+	              _nimbusReact.Table,
 	              { type: 'basic' },
 	              _react2.default.createElement(
 	                'tbody',
@@ -66902,18 +66902,18 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Form,
+	            _nimbusReact.Form,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { size: 'full' },
 	              _react2.default.createElement(
-	                _renimbus.FormTitle,
+	                _nimbusReact.FormTitle,
 	                null,
 	                'Input Title'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.FormInputBox,
+	                _nimbusReact.FormInputBox,
 	                null,
 	                _react2.default.createElement('input', { type: 'text', placeholder: 'Input' })
 	              ),
@@ -66924,15 +66924,15 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { size: 'full' },
 	              _react2.default.createElement(
-	                _renimbus.FormTitle,
+	                _nimbusReact.FormTitle,
 	                null,
 	                'Textarea'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.FormInputBox,
+	                _nimbusReact.FormInputBox,
 	                null,
 	                _react2.default.createElement('textarea', { cols: '30', rows: '10' })
 	              ),
@@ -66943,15 +66943,15 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { size: 'full' },
 	              _react2.default.createElement(
-	                _renimbus.FormTitle,
+	                _nimbusReact.FormTitle,
 	                null,
 	                'Select'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.FormInputBox,
+	                _nimbusReact.FormInputBox,
 	                { classes: 'c-form__select' },
 	                _react2.default.createElement(
 	                  'label',
@@ -66994,15 +66994,15 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { size: 'full' },
 	              _react2.default.createElement(
-	                _renimbus.FormTitle,
+	                _nimbusReact.FormTitle,
 	                null,
 	                'Checkbox'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.FormInputBox,
+	                _nimbusReact.FormInputBox,
 	                null,
 	                _react2.default.createElement('input', { type: 'checkbox', name: 'checkbox', id: 'c1' }),
 	                _react2.default.createElement(
@@ -67024,15 +67024,15 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { size: 'full' },
 	              _react2.default.createElement(
-	                _renimbus.FormTitle,
+	                _nimbusReact.FormTitle,
 	                null,
 	                'Radio'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.FormInputBox,
+	                _nimbusReact.FormInputBox,
 	                null,
 	                _react2.default.createElement('input', { type: 'radio', name: 'radio', id: 'r1' }),
 	                _react2.default.createElement(
@@ -67102,7 +67102,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -67135,7 +67135,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -67143,7 +67143,7 @@
 	            'Grid'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -67151,10 +67151,10 @@
 	              'Standard'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67163,7 +67163,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67172,7 +67172,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67181,7 +67181,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67190,7 +67190,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67199,7 +67199,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67208,7 +67208,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67217,7 +67217,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67226,7 +67226,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67235,7 +67235,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67244,7 +67244,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67253,7 +67253,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 1 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67263,10 +67263,10 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67275,7 +67275,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67284,7 +67284,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67293,7 +67293,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67302,7 +67302,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67311,7 +67311,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67321,10 +67321,10 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 3 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67333,7 +67333,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 3 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67342,7 +67342,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 3 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67351,7 +67351,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 3 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67361,10 +67361,10 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 4 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67373,7 +67373,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 4 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67382,7 +67382,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 4 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67392,10 +67392,10 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 5 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67404,7 +67404,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 2 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67413,7 +67413,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 5 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67423,10 +67423,10 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 6 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67435,7 +67435,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 6 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67451,7 +67451,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -67459,10 +67459,10 @@
 	              'Responsive'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Grid,
+	              _nimbusReact.Grid,
 	              { gutters: true, query: true },
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 6 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67471,7 +67471,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.GridCol,
+	                _nimbusReact.GridCol,
 	                { size: 6 },
 	                _react2.default.createElement(
 	                  'div',
@@ -67492,7 +67492,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -67589,7 +67589,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -67622,7 +67622,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -67630,7 +67630,7 @@
 	            'Hero'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -67638,7 +67638,7 @@
 	              'Basic'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Hero,
+	              _nimbusReact.Hero,
 	              { type: 'basic', anim: true },
 	              _react2.default.createElement(
 	                'h2',
@@ -67658,7 +67658,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -67666,8 +67666,8 @@
 	              'Image'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Hero,
-	              { type: 'image', anim: false, image: '/renimbus/public/image/hero.jpg' },
+	              _nimbusReact.Hero,
+	              { type: 'image', anim: false, image: '/nimbus-react/public/image/hero.jpg' },
 	              _react2.default.createElement(
 	                'h2',
 	                { className: 'c-text--white' },
@@ -67691,7 +67691,7 @@
 	            'Modifier'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Table,
+	            _nimbusReact.Table,
 	            { type: 'basic' },
 	            _react2.default.createElement(
 	              'tbody',
@@ -67788,7 +67788,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -67821,7 +67821,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -67829,27 +67829,27 @@
 	            'Label'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Label,
+	            _nimbusReact.Label,
 	            { color: false },
 	            'Default'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Label,
+	            _nimbusReact.Label,
 	            { color: 'primary' },
 	            'Primary'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Label,
+	            _nimbusReact.Label,
 	            { color: 'secondary' },
 	            'Secondary'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Label,
+	            _nimbusReact.Label,
 	            { color: 'info' },
 	            'Info'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Label,
+	            _nimbusReact.Label,
 	            { color: 'highlight' },
 	            'Highlight'
 	          ),
@@ -67906,7 +67906,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -67939,7 +67939,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -67947,15 +67947,15 @@
 	            'Media'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Media,
+	            _nimbusReact.Media,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MediaContent,
+	              _nimbusReact.MediaContent,
 	              null,
-	              _react2.default.createElement('img', { src: '/renimbus/public/image/thumb.jpg', alt: '', width: '150', height: '150' })
+	              _react2.default.createElement('img', { src: '/nimbus-react/public/image/thumb.jpg', alt: '', width: '150', height: '150' })
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MediaContent,
+	              _nimbusReact.MediaContent,
 	              null,
 	              _react2.default.createElement(
 	                'p',
@@ -68019,7 +68019,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68052,7 +68052,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -68060,10 +68060,10 @@
 	            'Menu'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.MenuList,
+	            _nimbusReact.MenuList,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -68072,7 +68072,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -68081,7 +68081,7 @@
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.MenuListItem,
+	              _nimbusReact.MenuListItem,
 	              null,
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -68145,7 +68145,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68178,7 +68178,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -68186,7 +68186,7 @@
 	            'Nav'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68194,10 +68194,10 @@
 	              'Default'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Nav,
+	              _nimbusReact.Nav,
 	              { size: 'medium' },
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68206,7 +68206,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68215,7 +68215,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68224,7 +68224,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68240,7 +68240,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68248,10 +68248,10 @@
 	              'Full'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Nav,
+	              _nimbusReact.Nav,
 	              { size: 'medium', itemLength: 4 },
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68260,7 +68260,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68269,7 +68269,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68278,7 +68278,7 @@
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.NavItem,
+	                _nimbusReact.NavItem,
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouterDom.Link,
@@ -68294,7 +68294,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68302,7 +68302,7 @@
 	              'Modifier'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Table,
+	              _nimbusReact.Table,
 	              { type: 'basic' },
 	              _react2.default.createElement(
 	                'tbody',
@@ -68386,7 +68386,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68419,7 +68419,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -68427,7 +68427,7 @@
 	            'Table'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68435,7 +68435,7 @@
 	              'basic'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Table,
+	              _nimbusReact.Table,
 	              { type: 'basic' },
 	              _react2.default.createElement(
 	                'tbody',
@@ -68505,7 +68505,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68513,7 +68513,7 @@
 	              'separate'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Table,
+	              _nimbusReact.Table,
 	              { type: 'separate' },
 	              _react2.default.createElement(
 	                'thead',
@@ -68618,7 +68618,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -68626,7 +68626,7 @@
 	              'overflow'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.Table,
+	              _nimbusReact.Table,
 	              { type: 'overflow' },
 	              _react2.default.createElement(
 	                'thead',
@@ -68811,7 +68811,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68844,7 +68844,7 @@
 	        _ComponentPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -68855,7 +68855,7 @@
 	            'p',
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Text,
+	              _nimbusReact.Text,
 	              { color: false },
 	              'Default'
 	            )
@@ -68864,7 +68864,7 @@
 	            'p',
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Text,
+	              _nimbusReact.Text,
 	              { color: 'primary' },
 	              'Primary'
 	            )
@@ -68873,7 +68873,7 @@
 	            'p',
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Text,
+	              _nimbusReact.Text,
 	              { color: 'secondary' },
 	              'Secondary'
 	            )
@@ -68882,7 +68882,7 @@
 	            'p',
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Text,
+	              _nimbusReact.Text,
 	              { color: 'info' },
 	              'Info'
 	            )
@@ -68891,7 +68891,7 @@
 	            'p',
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.Text,
+	              _nimbusReact.Text,
 	              { color: 'highlight' },
 	              'Highlight'
 	            )
@@ -68947,7 +68947,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -68984,7 +68984,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69057,7 +69057,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageSideMenu = __webpack_require__(655);
 
@@ -69090,22 +69090,22 @@
 	        'div',
 	        { className: 'l-wrapper' },
 	        _react2.default.createElement(
-	          _renimbus.Grid,
+	          _nimbusReact.Grid,
 	          { gutters: true, query: true },
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 9 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              null,
 	              this.props.children
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 3 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { classes: 'u-d-pc' },
 	              _react2.default.createElement(_BasePageSideMenu2.default, null)
 	            )
@@ -69138,7 +69138,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -69164,10 +69164,10 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        _renimbus.MenuList,
+	        _nimbusReact.MenuList,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69176,7 +69176,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69185,7 +69185,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69194,7 +69194,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69203,7 +69203,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69212,7 +69212,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -69257,7 +69257,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -69294,7 +69294,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69357,7 +69357,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -69394,7 +69394,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69457,7 +69457,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -69494,7 +69494,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69590,7 +69590,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -69627,7 +69627,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69718,7 +69718,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _BasePageWrap = __webpack_require__(654);
 
@@ -69755,7 +69755,7 @@
 	        _BasePageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69822,7 +69822,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -69859,7 +69859,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -69912,7 +69912,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageSideMenu = __webpack_require__(663);
 
@@ -69945,22 +69945,22 @@
 	        'div',
 	        { className: 'l-wrapper' },
 	        _react2.default.createElement(
-	          _renimbus.Grid,
+	          _nimbusReact.Grid,
 	          { gutters: true, query: true },
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 9 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true },
 	              this.props.children
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 3 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true, classes: 'u-d-pc' },
 	              _react2.default.createElement(_UtilityPageSideMenu2.default, null)
 	            )
@@ -69993,7 +69993,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -70019,10 +70019,10 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        _renimbus.MenuList,
+	        _nimbusReact.MenuList,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70031,7 +70031,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70040,7 +70040,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70049,7 +70049,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70058,7 +70058,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70067,7 +70067,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70076,7 +70076,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70085,7 +70085,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70094,7 +70094,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70103,7 +70103,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70112,7 +70112,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70121,7 +70121,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70130,7 +70130,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70139,7 +70139,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -70184,7 +70184,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70221,7 +70221,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70284,7 +70284,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70321,7 +70321,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70384,7 +70384,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70421,7 +70421,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70484,7 +70484,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70521,7 +70521,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70584,7 +70584,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70621,7 +70621,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70684,7 +70684,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70721,7 +70721,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70784,7 +70784,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70821,7 +70821,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70884,7 +70884,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -70921,7 +70921,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -70984,7 +70984,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -71021,7 +71021,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71084,7 +71084,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -71121,7 +71121,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71184,7 +71184,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -71221,7 +71221,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71284,7 +71284,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -71321,7 +71321,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71384,7 +71384,7 @@
 
 	var _styles = __webpack_require__(557);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _UtilityPageWrap = __webpack_require__(662);
 
@@ -71421,7 +71421,7 @@
 	        _UtilityPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71486,7 +71486,7 @@
 
 	var _Tab = __webpack_require__(242);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _JsPageWrap = __webpack_require__(678);
 
@@ -71531,7 +71531,7 @@
 	        _JsPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71539,55 +71539,55 @@
 	            'Tab'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Tab,
+	            _nimbusReact.Tab,
 	            null,
 	            _react2.default.createElement(
-	              _renimbus.TabMenu,
+	              _nimbusReact.TabMenu,
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.TabBtn,
+	                _nimbusReact.TabBtn,
 	                { onClickTabAction: this.onClickTabAction.bind(this, 1), classes: tabId === 1 && 'is-active' },
 	                'Tab1'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.TabBtn,
+	                _nimbusReact.TabBtn,
 	                { onClickTabAction: this.onClickTabAction.bind(this, 2), classes: tabId === 2 && 'is-active' },
 	                'Tab2'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.TabBtn,
+	                _nimbusReact.TabBtn,
 	                { onClickTabAction: this.onClickTabAction.bind(this, 3), classes: tabId === 3 && 'is-active' },
 	                'Tab3'
 	              ),
 	              _react2.default.createElement(
-	                _renimbus.TabBtn,
+	                _nimbusReact.TabBtn,
 	                { onClickTabAction: this.onClickTabAction.bind(this, 4), classes: tabId === 4 && 'is-active' },
 	                'Tab4'
 	              )
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.TabBody,
+	              _nimbusReact.TabBody,
 	              { classes: tabId === 1 && 'is-show' },
 	              'content 1 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.TabBody,
+	              _nimbusReact.TabBody,
 	              { classes: tabId === 2 && 'is-show' },
 	              'content 2 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.TabBody,
+	              _nimbusReact.TabBody,
 	              { classes: tabId === 3 && 'is-show' },
 	              'content 3 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.TabBody,
+	              _nimbusReact.TabBody,
 	              { classes: tabId === 4 && 'is-show' },
 	              'content 4 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -71601,7 +71601,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -71652,7 +71652,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _JsPageSideMenu = __webpack_require__(679);
 
@@ -71685,22 +71685,22 @@
 	        'div',
 	        { className: 'l-wrapper' },
 	        _react2.default.createElement(
-	          _renimbus.Grid,
+	          _nimbusReact.Grid,
 	          { gutters: true, query: true },
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 9 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true },
 	              this.props.children
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.GridCol,
+	            _nimbusReact.GridCol,
 	            { size: 3 },
 	            _react2.default.createElement(
-	              _renimbus.Container,
+	              _nimbusReact.Container,
 	              { fixed: true, classes: 'u-d-pc' },
 	              _react2.default.createElement(_JsPageSideMenu2.default, null)
 	            )
@@ -71733,7 +71733,7 @@
 
 	var _reactRouterDom = __webpack_require__(245);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -71759,10 +71759,10 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        _renimbus.MenuList,
+	        _nimbusReact.MenuList,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -71771,7 +71771,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _renimbus.MenuListItem,
+	          _nimbusReact.MenuListItem,
 	          null,
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
@@ -71818,7 +71818,7 @@
 
 	var _Modal = __webpack_require__(243);
 
-	var _renimbus = __webpack_require__(273);
+	var _nimbusReact = __webpack_require__(273);
 
 	var _JsPageWrap = __webpack_require__(678);
 
@@ -71865,7 +71865,7 @@
 	        _JsPageWrap2.default,
 	        null,
 	        _react2.default.createElement(
-	          _renimbus.Container,
+	          _nimbusReact.Container,
 	          { size: false },
 	          _react2.default.createElement(
 	            'h1',
@@ -71873,32 +71873,32 @@
 	            'Modal'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Button,
+	            _nimbusReact.Button,
 	            { onClickAction: function onClickAction() {
 	                _this2.props.changeModal('sample');
 	              }, color: 'primary', size: false },
 	            'Modal Open'
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Modal,
+	            _nimbusReact.Modal,
 	            { name: 'sample', showModal: showModal, onClickAction: function onClickAction() {
 	                _this2.props.changeModal(false);
 	              } },
 	            _react2.default.createElement(
-	              _renimbus.ModalHeader,
+	              _nimbusReact.ModalHeader,
 	              null,
 	              'Modal Title'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.ModalContent,
+	              _nimbusReact.ModalContent,
 	              null,
 	              'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia'
 	            ),
 	            _react2.default.createElement(
-	              _renimbus.ModalBottom,
+	              _nimbusReact.ModalBottom,
 	              null,
 	              _react2.default.createElement(
-	                _renimbus.Button,
+	                _nimbusReact.Button,
 	                { onClickAction: function onClickAction() {
 	                    _this2.props.changeModal(false);
 	                  }, color: false, size: false },
@@ -71907,7 +71907,7 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',
@@ -71917,11 +71917,11 @@
 	            _react2.default.createElement(
 	              _reactSyntaxHighlighter2.default,
 	              { style: _styles.monokai },
-	              'import { bindActionCreators } from \'redux\'\nimport React, { Component, PropTypes } from \'react\'\nimport { connect } from \'react-redux\'\n\nimport {changeModal}  from \'../../redux/modules/Modal\'\n\n// components\nimport {\n  Container,\n  Button,\n  Modal,\n  ModalBottom,\n  ModalContent,\n  ModalHeader\n} from \'renimbus\'\n\nclass ModalPage extends Component {\n  // static propTypes = {\n  //\n  // }\n\n  constructor(props) {\n    super(props)\n  }\n\n  onClickTabAction(id) {\n    this.props.changeTab(id)\n  }\n\n  render() {\n    const {showModal} = this.props\n\n    return (\n      <div>\n        <h1>Modal</h1>\n        <Button onClickAction={() => {this.props.changeModal(\'sample\')}} color={\'primary\'} size={false}>Modal Open</Button>\n\n        <Modal name={\'sample\'} showModal={showModal}>\n          <ModalHeader>Modal Title</ModalHeader>\n          <ModalContent>\n            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia\n          </ModalContent>\n          <ModalBottom>\n            <Button onClickAction={() => {this.props.changeModal(false)}} color={false} size={false}>Close</Button>\n          </ModalBottom>\n        </Modal>\n      </div>\n    )\n  }\n}\n\nfunction mapStateToProps(state) {\n  return {\n    showModal: state.modal.showModal\n  }\n}\n\nfunction mapDispatchToProps(dispatch) {\n  return bindActionCreators(Object.assign({}, {changeModal}), dispatch)\n}\n\nexport default connect(mapStateToProps, mapDispatchToProps)(ModalPage)'
+	              'import { bindActionCreators } from \'redux\'\nimport React, { Component, PropTypes } from \'react\'\nimport { connect } from \'react-redux\'\n\nimport {changeModal}  from \'../../redux/modules/Modal\'\n\n// components\nimport {\n  Container,\n  Button,\n  Modal,\n  ModalBottom,\n  ModalContent,\n  ModalHeader\n} from \'nimbus-react\'\n\nclass ModalPage extends Component {\n  // static propTypes = {\n  //\n  // }\n\n  constructor(props) {\n    super(props)\n  }\n\n  onClickTabAction(id) {\n    this.props.changeTab(id)\n  }\n\n  render() {\n    const {showModal} = this.props\n\n    return (\n      <div>\n        <h1>Modal</h1>\n        <Button onClickAction={() => {this.props.changeModal(\'sample\')}} color={\'primary\'} size={false}>Modal Open</Button>\n\n        <Modal name={\'sample\'} showModal={showModal}>\n          <ModalHeader>Modal Title</ModalHeader>\n          <ModalContent>\n            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia\n          </ModalContent>\n          <ModalBottom>\n            <Button onClickAction={() => {this.props.changeModal(false)}} color={false} size={false}>Close</Button>\n          </ModalBottom>\n        </Modal>\n      </div>\n    )\n  }\n}\n\nfunction mapStateToProps(state) {\n  return {\n    showModal: state.modal.showModal\n  }\n}\n\nfunction mapDispatchToProps(dispatch) {\n  return bindActionCreators(Object.assign({}, {changeModal}), dispatch)\n}\n\nexport default connect(mapStateToProps, mapDispatchToProps)(ModalPage)'
 	            )
 	          ),
 	          _react2.default.createElement(
-	            _renimbus.Container,
+	            _nimbusReact.Container,
 	            { size: 'full' },
 	            _react2.default.createElement(
 	              'h2',

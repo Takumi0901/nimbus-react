@@ -13,7 +13,7 @@ import {
   ButtonLink,
   Container,
   Table,
-} from 'renimbus'
+} from 'nimbus-react'
 
 class ButtonPage extends Component {
   // static propTypes = {

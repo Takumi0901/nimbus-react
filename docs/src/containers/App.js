@@ -1,4 +1,4 @@
-import 'renimbus/public/css/app.css'
+import 'nimbus-react/public/css/app.css'
 
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'

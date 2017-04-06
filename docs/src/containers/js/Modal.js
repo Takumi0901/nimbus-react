@@ -16,7 +16,7 @@ import {
   ModalBottom,
   ModalContent,
   ModalHeader
-} from 'renimbus'
+} from 'nimbus-react'
 
 import JsPageWrap from '../../components/JsPageWrap'
 
@@ -69,7 +69,7 @@ import {
   ModalBottom,
   ModalContent,
   ModalHeader
-} from 'renimbus'
+} from 'nimbus-react'
 
 class ModalPage extends Component {
   // static propTypes = {

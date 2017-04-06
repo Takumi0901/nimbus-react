@@ -13,7 +13,7 @@ import {
   Container,
   Hero,
   ButtonLink
-} from 'renimbus'
+} from 'nimbus-react'
 
 class Home extends Component {
   // static propTypes = {
@@ -27,8 +27,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Hero type={'image'} anim={false} image={'/renimbus/public/image/hero.jpg'} classes="u-ta-c">
-          <h2><img src="/renimbus/public/image/logo-white.png" alt="" width="300"/></h2>
+        <Hero type={'image'} anim={false} image={'/nimbus-react/public/image/hero.jpg'} classes="u-ta-c">
+          <h2><img src="/nimbus-react/public/image/logo-white.png" alt="" width="300"/></h2>
           <p className="u-fz-18 u-mb-0">
             A design system made for React.js
           </p>
@@ -40,7 +40,7 @@ class Home extends Component {
           <Grid gutters={true} query={true} align={'center'}>
             <GridCol size={9}>
               <Container>
-                <ButtonLink href={'https://github.com/Takumi0901/renimbus'} color={'primary'} size={'large'}>View on GitHub</ButtonLink>
+                <ButtonLink href={'https://github.com/Takumi0901/nimbus-react'} color={'primary'} size={'large'}>View on GitHub</ButtonLink>
               </Container>
               <Container>
                 <h2>The feature of Nimbus</h2>

@@ -13,7 +13,7 @@ import {
   NavItem,
   Container,
   Table
-} from 'renimbus'
+} from 'nimbus-react'
 
 class TablePage extends Component {
   // static propTypes = {

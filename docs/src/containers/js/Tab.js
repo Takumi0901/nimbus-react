@@ -15,7 +15,7 @@ import {
   TabMenu,
   TabBtn,
   TabBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 import JsPageWrap from '../../components/JsPageWrap'
 

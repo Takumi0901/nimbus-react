@@ -13,7 +13,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class ClampPage extends Component {
   // static propTypes = {

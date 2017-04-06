@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 import {
   MenuList,
   MenuListItem
-} from 'renimbus'
+} from 'nimbus-react'
 
 export default class SideMenu extends React.Component {
 

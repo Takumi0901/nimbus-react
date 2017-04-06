@@ -11,7 +11,7 @@ import {
   Alert,
   AlertStrongText,
   Container,
-} from 'renimbus'
+} from 'nimbus-react'
 
 import ComponentPageWrap from '../../components/ComponentPageWrap'
 

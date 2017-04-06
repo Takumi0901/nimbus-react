@@ -14,7 +14,7 @@ import {
   FormInputBox,
   Container,
   Table
-} from 'renimbus'
+} from 'nimbus-react'
 
 class FormPage extends Component {
   // static propTypes = {

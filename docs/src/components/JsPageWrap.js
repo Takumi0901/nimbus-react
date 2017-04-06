@@ -7,7 +7,7 @@ import {
   Grid,
   GridCol,
   Container
-} from 'renimbus'
+} from 'nimbus-react'
 
 import SideMenu from './JsPageSideMenu'
 

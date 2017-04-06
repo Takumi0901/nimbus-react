@@ -16,7 +16,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class CardPage extends Component {
   // static propTypes = {

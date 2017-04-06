@@ -12,7 +12,7 @@ import {
   Container,
   Table,
   TableBody
-} from 'renimbus'
+} from 'nimbus-react'
 
 class ContainerPage extends Component {
   // static propTypes = {

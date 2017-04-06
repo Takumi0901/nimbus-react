@@ -13,7 +13,7 @@ import {
   MenuList,
   MenuListItem,
   Container
-} from 'renimbus'
+} from 'nimbus-react'
 
 class MenuListPage extends Component {
   // static propTypes = {

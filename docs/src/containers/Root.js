@@ -82,7 +82,7 @@ class Root extends Component {
       <Provider store={store}>
         <Router>
           <App>
-            <Route path="/renimbus/" component={HomePage}/>
+            <Route path="/nimbus-react/" component={HomePage}/>
             <Route path="/globalmenu" component={MenuPage}/>
             <Route path="/start" component={StartPage}/>
             <Route path="/alert" component={AlertPage}/>

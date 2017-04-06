@@ -9,7 +9,7 @@ import {
   NavItem,
   Grid,
   GridCol
-} from 'renimbus'
+} from 'nimbus-react'
 
 export default class Header extends React.Component {
 
@@ -23,7 +23,7 @@ export default class Header extends React.Component {
         <Bar shadow={'bottom'} size={'medium'} color={false} fixed={true}>
           <Grid gutters={true} align={'between'}>
             <GridCol>
-              <h1><Link to="/renimbus"><img src="/renimbus/public/image/logo.png" alt="" width="140"/></Link></h1>
+              <h1><Link to="/nimbus-react"><img src="/nimbus-react/public/image/logo.png" alt="" width="140"/></Link></h1>
             </GridCol>
             <GridCol>
               <Nav size={'medium'} classes="u-d-sp">

@@ -11,7 +11,7 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 import {
   Text,
   Container
-} from 'renimbus'
+} from 'nimbus-react'
 
 class TextPage extends Component {
   // static propTypes = {

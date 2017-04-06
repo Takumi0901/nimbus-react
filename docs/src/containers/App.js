@@ -1,5 +1,3 @@
-import 'nimbus-react/public/css/app.css'
-
 import { bindActionCreators } from 'redux'
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'

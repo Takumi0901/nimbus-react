@@ -12,7 +12,7 @@ export default class FormTitle extends Component{
         {this.props.children}
         {this.props.required &&
           <span className={classNames(
-            'c-form__icon c-label c-label--required',
+            'c-form__icon c-label c-label--highlight',
             this.props.position && `c-form__icon--${this.props.position}`
           )}>{this.props.required}</span>
         }

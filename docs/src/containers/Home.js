@@ -25,14 +25,17 @@ class Home extends Component {
   }
 
   render() {
+    let imgStyle = {
+      backgroundImage: 'url(/nimbus-react/public/image/hero.jpg)',
+    }
     return (
       <div>
-        <Hero type={'image'} anim={false} image={'/nimbus-react/public/image/hero.jpg'} classes="u-ta-c">
+        <Hero type={'image'} style={imgStyle} classes="u-ta-c">
           <h2><img src="/nimbus-react/public/image/logo-white.png" alt="" width="300"/></h2>
-          <p className="u-fz-18 u-mb-0">
+          <p className="c-text--white u-fz-18 u-mb-0">
             A design system made for React.js
           </p>
-          <p className="u-fz-18 u-mb-0">
+          <p className="c-text--white u-fz-18 u-mb-0">
             component which can be used in a project of React + Redux.
           </p>
         </Hero>
@@ -40,7 +43,7 @@ class Home extends Component {
           <Grid gutters={true} query={true} align={'center'}>
             <GridCol size={9}>
               <Container>
-                <ButtonLink href={'https://github.com/Takumi0901/nimbus-react'} color={'primary'} size={'large'}>View on GitHub</ButtonLink>
+                <ButtonLink href={'https://github.com/Takumi0901/nimbus-react'} size={'large'} style={{backgroundColor: '#333', color: '#fff'}}>View on GitHub</ButtonLink>
               </Container>
               <Container>
                 <h2>The feature of Nimbus</h2>

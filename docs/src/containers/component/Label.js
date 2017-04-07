@@ -30,17 +30,11 @@ class LabelPage extends Component {
         <Container size={false}>
           <h1>Label</h1>
           <Label color={false}>Default</Label>
-          <Label color={'primary'}>Primary</Label>
-          <Label color={'secondary'}>Secondary</Label>
-          <Label color={'info'}>Info</Label>
           <Label color={'highlight'}>Highlight</Label>
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
         <Label color={false}>Default</Label>
-        <Label color={'primary'}>Primary</Label>
-        <Label color={'secondary'}>Secondary</Label>
-        <Label color={'info'}>Info</Label>
         <Label color={'highlight'}>Highlight</Label>
       )
   }`}

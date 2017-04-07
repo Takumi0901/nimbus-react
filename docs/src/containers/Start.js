@@ -72,7 +72,7 @@ export default class App extends React.Component {
     render() {
         return (
             // ボタンを追加する
-            <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>Button</Button>
+            <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>Button</Button>
         );
     }
 }`}

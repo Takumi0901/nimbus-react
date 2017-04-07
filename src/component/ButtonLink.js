@@ -7,9 +7,9 @@ export default class ButtonLink extends Component{
       <a
         href={this.props.href}
         onClick={this.props.onClickAction}
+        style={this.props.style && this.props.style}
         className={classNames(
           'c-btn',
-          this.props.color && `c-btn--${this.props.color}`,
           this.props.size && `c-btn--${this.props.size}`,
           this.props.display && `c-btn--${this.props.display}`,
           this.props.classes

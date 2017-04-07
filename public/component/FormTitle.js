@@ -41,7 +41,7 @@ var FormTitle = function (_Component) {
         this.props.children,
         this.props.required && _react2.default.createElement(
           'span',
-          { className: (0, _classnames2.default)('c-form__icon c-label c-label--required', this.props.position && 'c-form__icon--' + this.props.position) },
+          { className: (0, _classnames2.default)('c-form__icon c-label c-label--highlight', this.props.position && 'c-form__icon--' + this.props.position) },
           this.props.required
         )
       );

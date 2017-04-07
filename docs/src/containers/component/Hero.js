@@ -25,6 +25,14 @@ class HeroPage extends Component {
   }
 
   render() {
+    let basicStyle = {
+      background: 'linear-gradient(270deg,#4bd5f2,#2dd885)',
+      backgroundSize: '400% 400%'
+    }
+
+    let imgStyle = {
+      backgroundImage: 'url(/nimbus-react/public/image/hero.jpg)',
+    }
     return (
       <ComponentPageWrap>
         <Container size={false}>
@@ -32,18 +40,22 @@ class HeroPage extends Component {
 
           <Container size={'full'}>
             <h2>Basic</h2>
-            <Hero type={'basic'} anim={true}>
+            <Hero type={false} style={basicStyle}>
               <h2 className="c-text--white">Hero Title</h2>
-              <p className="u-mb-0">
+              <p className="c-text--white u-mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
               </p>
             </Hero>
   <SyntaxHighlighter style={monokai}>
     {`render() {
+      let basicStyle = {
+        background: 'linear-gradient(270deg,#4bd5f2,#2dd885)',
+        backgroundSize: '400% 400%'
+      }
       return (
-        <Hero type={'basic'} anim={true}>
+        <Hero type={false} style={basicStyle}>
           <h2 className="c-text--white">Hero Title</h2>
-          <p className="u-mb-0">
+          <p className="c-text--white u-mb-0">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
           </p>
         </Hero>
@@ -54,18 +66,21 @@ class HeroPage extends Component {
 
           <Container size={'full'}>
             <h2>Image</h2>
-            <Hero type={'image'} anim={false} image={'/nimbus-react/public/image/hero.jpg'}>
+            <Hero type={'image'} style={imgStyle} image={'/nimbus-react/public/image/hero.jpg'}>
               <h2 className="c-text--white">Hero Title</h2>
-              <p className="u-mb-0">
+              <p className="c-text--white u-mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
               </p>
             </Hero>
   <SyntaxHighlighter style={monokai}>
     {`render() {
+      let imgStyle = {
+        backgroundImage: 'url(/nimbus-react/public/image/hero.jpg)',
+      }
       return (
-        <Hero type={'image'} anim={false} image={'image/hero.jpg'}>
+        <Hero type={'image'} style={imgStyle} image={'/nimbus-react/public/image/hero.jpg'}>
           <h2 className="c-text--white">Hero Title</h2>
-          <p className="u-mb-0">
+          <p className="c-text--white u-mb-0">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
           </p>
         </Hero>
@@ -79,11 +94,7 @@ class HeroPage extends Component {
             <tbody>
             <tr>
               <th>type</th>
-              <td>basic  ||  image</td>
-            </tr>
-            <tr>
-              <th>anim</th>
-              <td>true  ||  false</td>
+              <td>false  ||  image</td>
             </tr>
             <tr>
               <th>mt (margin-top)</th>

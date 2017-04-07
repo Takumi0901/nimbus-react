@@ -8,7 +8,6 @@ export default class Bar extends Component{
         'c-bar',
         this.props.shadow && `c-bar--shadow-${this.props.shadow}`,
         this.props.size && `c-bar--${this.props.size}`,
-        this.props.color && `c-bar--${this.props.color}`,
         this.props.fixed && `c-bar--fixed-${this.props.fixed}`,
         this.props.classes
       )}>

@@ -29,13 +29,13 @@ class BarPage extends Component {
       <ComponentPageWrap>
         <Container size={false}>
           <h1>Bar</h1>
-          <Bar shadow={'bottom'} size={'large'} color={false} fixed={false}>
+          <Bar shadow={'bottom'} size={'large'} fixed={false}>
             Sed ut perspiciatis
           </Bar>
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Bar shadow={'bottom'} size={'large'} color={false} fixed={false}>
+        <Bar shadow={'bottom'} size={'large'} fixed={false}>
           Sed ut perspiciatis
         </Bar>
       )
@@ -52,10 +52,6 @@ class BarPage extends Component {
               <tr>
                 <th>size</th>
                 <td>small  ||  medium  ||  Large</td>
-              </tr>
-              <tr>
-                <th>color</th>
-                <td>promary  ||  secondary  ||  info</td>
               </tr>
               <tr>
                 <th>fixed</th>

@@ -38,7 +38,7 @@ var Hero = function (_Component) {
         'div',
         {
           className: (0, _classnames2.default)('c-hero', this.props.type && 'c-hero--' + this.props.type, this.props.anim && 'c-hero--anim', this.props.mt && 'c-hero--' + this.props.mt, this.props.classes),
-          style: this.props.image && { backgroundImage: 'url(' + this.props.image + ')' }
+          style: this.props.style && this.props.style
         },
         _react2.default.createElement(
           'div',

@@ -38,7 +38,8 @@ var Button = function (_Component) {
         'button',
         {
           onClick: this.props.onClickAction,
-          className: (0, _classnames2.default)('c-btn', this.props.color && 'c-btn--' + this.props.color, this.props.size && 'c-btn--' + this.props.size, this.props.display && 'c-btn--' + this.props.display, this.props.classes) },
+          style: this.props.style && this.props.style,
+          className: (0, _classnames2.default)('c-btn', this.props.size && 'c-btn--' + this.props.size, this.props.display && 'c-btn--' + this.props.display, this.props.classes) },
         this.props.children
       );
     }

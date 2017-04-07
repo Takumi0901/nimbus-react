@@ -30,7 +30,6 @@ class TextPage extends Component {
           <p><Text color={false}>Default</Text></p>
           <p><Text color={'primary'}>Primary</Text></p>
           <p><Text color={'secondary'}>Secondary</Text></p>
-          <p><Text color={'info'}>Info</Text></p>
           <p><Text color={'highlight'}>Highlight</Text></p>
           <SyntaxHighlighter style={monokai}>
             {`render() {
@@ -38,7 +37,6 @@ class TextPage extends Component {
         <Text color={false}>Default</Text>
         <Text color={'primary'}>Primary</Text>
         <Text color={'secondary'}>Secondary</Text>
-        <Text color={'info'}>Info</Text>
         <Text color={'highlight'}>Highlight</Text>
       )
   }`}

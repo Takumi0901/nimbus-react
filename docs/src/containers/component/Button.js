@@ -32,13 +32,13 @@ class ButtonPage extends Component {
           <Container size={'full'}>
             <p>
               <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>Button</Button>&nbsp;
-              <ButtonLink href={'/'} color={false} size={false}>Link</ButtonLink>
+              <ButtonLink href={'/'} size={false}>Link</ButtonLink>
             </p>
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>Button</Button>
-        <ButtonLink href={'/'} color={false} size={false}>Link</ButtonLink>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>Button</Button>
+        <ButtonLink href={'/'} size={false}>Link</ButtonLink>
       )
   }`}
             </SyntaxHighlighter>
@@ -46,20 +46,12 @@ class ButtonPage extends Component {
 
           <Container size={'full'}>
             <p>
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>default</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={false}>primary</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'secondary'} size={false}>secondary</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'info'} size={false}>info</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'highlight'} size={false}>highlight</Button>
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>
             </p>
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>default</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={false}>primary</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'secondary'} size={false}>secondary</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'info'} size={false}>info</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'highlight'} size={false}>highlight</Button>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>
       )
   }`}
             </SyntaxHighlighter>
@@ -67,20 +59,20 @@ class ButtonPage extends Component {
 
           <Container size={'full'}>
             <p>
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={'jumbo'}>jumbo</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={'large'}>large</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={false}>default</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={'small'}>small</Button>&nbsp;
-              <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={'tiny'}>tiny</Button>
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={'jumbo'}>jumbo</Button>&nbsp;
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={'large'}>large</Button>&nbsp;
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>&nbsp;
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={'small'}>small</Button>&nbsp;
+              <Button onClickAction={() => {console.log('hgoehgoe')}} size={'tiny'}>tiny</Button>
             </p>
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={false} size={false}>default</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'primary'} size={false}>primary</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'secondary'} size={false}>secondary</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'info'} size={false}>info</Button>
-        <Button onClickAction={() => {console.log('hgoehgoe')}} color={'highlight'} size={false}>highlight</Button>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'jumbo'}>jumbo</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'large'}>large</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'small'}>small</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'tiny'}>tiny</Button>
       )
   }`}
             </SyntaxHighlighter>
@@ -90,7 +82,6 @@ class ButtonPage extends Component {
             <p>
               <Button
                 onClickAction={() => {console.log('hgoehgoe')}}
-                color={'primary'}
                 size={false}
                 display={'block'}>Button</Button>
             </p>
@@ -99,7 +90,6 @@ class ButtonPage extends Component {
       return (
         <Button
           onClickAction={() => {console.log('hgoehgoe')}}
-          color={'primary'}
           size={false}
           display={'block'}>Button</Button>
       )
@@ -110,10 +100,6 @@ class ButtonPage extends Component {
           <h2>Modifier</h2>
           <Table type={'basic'}>
             <tbody>
-            <tr>
-              <th>color</th>
-              <td>default  ||  primary  ||  secondary  ||  info  ||  highlight</td>
-            </tr>
             <tr>
               <th>size</th>
               <td>small  ||  medium  ||  default  ||  Large  ||  jumbo</td>

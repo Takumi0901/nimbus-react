@@ -86,23 +86,23 @@ class TabPage extends Component {
     const {tabId} = this.props
 
     return (
-      <Tab>
-  <TabMenu>
-    <TabBtn onClickTabAction={this.onClickTabAction.bind(this, 1)} classes={tabId === 1 && 'is-active'}>Tab1</TabBtn>
-    <TabBtn onClickTabAction={this.onClickTabAction.bind(this, 2)} classes={tabId === 2 && 'is-active'}>Tab2</TabBtn>
-    <TabBtn onClickTabAction={this.onClickTabAction.bind(this, 3)} classes={tabId === 3 && 'is-active'}>Tab3</TabBtn>
-    <TabBtn onClickTabAction={this.onClickTabAction.bind(this, 4)} classes={tabId === 4 && 'is-active'}>Tab4</TabBtn>
+      <Tab style={{style}}>
+  <TabMenu style={{style}}>
+    <TabBtn style={{style}} onClickTabAction={this.onClickTabAction.bind(this, 1)} classes={tabId === 1 && 'is-active'}>Tab1</TabBtn>
+    <TabBtn style={{style}} onClickTabAction={this.onClickTabAction.bind(this, 2)} classes={tabId === 2 && 'is-active'}>Tab2</TabBtn>
+    <TabBtn style={{style}} onClickTabAction={this.onClickTabAction.bind(this, 3)} classes={tabId === 3 && 'is-active'}>Tab3</TabBtn>
+    <TabBtn style={{style}} onClickTabAction={this.onClickTabAction.bind(this, 4)} classes={tabId === 4 && 'is-active'}>Tab4</TabBtn>
   </TabMenu>
-  <TabBody classes={tabId === 1 && 'is-show'}>
+  <TabBody classes={tabId === 1 && 'is-show'} style={{style}}>
     content 1 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
   </TabBody>
-  <TabBody classes={tabId === 2 && 'is-show'}>
+  <TabBody classes={tabId === 2 && 'is-show'} style={{style}}>
     content 2 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
   </TabBody>
-  <TabBody classes={tabId === 3 && 'is-show'}>
+  <TabBody classes={tabId === 3 && 'is-show'} style={{style}}>
     content 3 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
   </TabBody>
-  <TabBody classes={tabId === 4 && 'is-show'}>
+  <TabBody classes={tabId === 4 && 'is-show'} style={{style}}>
     content 4 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
   </TabBody>
 </Tab>

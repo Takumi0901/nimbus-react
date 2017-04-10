@@ -36,8 +36,7 @@ var NavItem = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'li',
-        {
-          className: (0, _classnames2.default)('c-nav__item', this.props.classes) },
+        { className: (0, _classnames2.default)('c-nav__item', this.props.classes), style: this.props.style },
         this.props.children
       );
     }

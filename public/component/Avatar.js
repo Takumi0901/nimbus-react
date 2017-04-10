@@ -36,7 +36,10 @@ var Avatar = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: (0, _classnames2.default)('c-avatar', this.props.size && 'c-avatar--' + this.props.size, this.props.classes) },
+        {
+          className: (0, _classnames2.default)('c-avatar', this.props.size && 'c-avatar--' + this.props.size, this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

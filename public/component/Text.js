@@ -37,7 +37,9 @@ var Text = function (_Component) {
       return _react2.default.createElement(
         'span',
         {
-          className: (0, _classnames2.default)('c-text', this.props.color && 'c-text--' + this.props.color, this.props.classes) },
+          className: (0, _classnames2.default)('c-text', this.props.color && 'c-text--' + this.props.color, this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

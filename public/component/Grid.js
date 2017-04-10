@@ -37,7 +37,9 @@ var Grid = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-grid', this.props.vAlign && 'c-grid--' + this.props.vAlign, this.props.align && 'c-grid--' + this.props.align, this.props.direction && 'c-grid--' + this.props.direction, this.props.gutters && 'c-grid--gutters', this.props.query && 'c-grid--query', this.props.classes) },
+          className: (0, _classnames2.default)('c-grid', this.props.vAlign && 'c-grid--' + this.props.vAlign, this.props.align && 'c-grid--' + this.props.align, this.props.direction && 'c-grid--' + this.props.direction, this.props.gutters && 'c-grid--gutters', this.props.query && 'c-grid--query', this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

@@ -5,10 +5,7 @@ export default class MediaContent extends Component{
   render(){
     return(
       <div
-        className={classNames(
-          'c-media__content',
-          this.props.classes
-        )}>
+        className={classNames('c-media__content', this.props.classes)} style={this.props.style}>
         {this.props.children}
       </div>
     )

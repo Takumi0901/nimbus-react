@@ -10,7 +10,9 @@ export default class Container extends Component{
           this.props.size && `c-container--${this.props.size}`,
           this.props.fixed && `c-container--fixed`,
           this.props.classes
-        )}>
+        )}
+        style={this.props.style}
+      >
         {this.props.children}
       </div>
     )

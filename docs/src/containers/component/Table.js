@@ -55,7 +55,7 @@ class TablePage extends Component {
             <SyntaxHighlighter style={monokai}>
               {`render() {
         return (
-          <Table type={'basic'}>
+          <Table type={'basic'} style={{style}}>
               <tbody>
               <tr>
                 <th>title</th>
@@ -113,7 +113,7 @@ class TablePage extends Component {
             <SyntaxHighlighter style={monokai}>
               {`render() {
         return (
-          <Table type={'separate'}>
+          <Table type={'separate'} style={{style}}>
           <thead>
           <tr>
             <th>Title1</th>
@@ -188,7 +188,7 @@ class TablePage extends Component {
             <SyntaxHighlighter style={monokai}>
               {`render() {
         return (
-          <Table type={'overflow'}>
+          <Table type={'overflow'} style={{style}}>
           <thead>
           <tr>
             <th>Type</th>
@@ -228,6 +228,19 @@ class TablePage extends Component {
     }`}
             </SyntaxHighlighter>
           </Container>
+
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <tr>
+                <th>style</th>
+                <td>any</td>
+              </tr>
+            </tr>
+            </tbody>
+          </Table>
 
         </Container>
       </ComponentPageWrap>

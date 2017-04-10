@@ -8,8 +8,9 @@ export default class GridCol extends Component{
         className={classNames(
           'c-grid__col',
           this.props.size && `c-grid__col--${this.props.size}of12`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </div>
     )

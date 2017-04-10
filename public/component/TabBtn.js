@@ -36,8 +36,7 @@ var Tab = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'li',
-        {
-          className: (0, _classnames2.default)('c-tab__menu__item', this.props.classes) },
+        { className: (0, _classnames2.default)('c-tab__menu__item', this.props.classes), style: this.props.style },
         _react2.default.createElement(
           'span',
           { className: 'c-tab__btn', onClick: this.props.onClickTabAction },

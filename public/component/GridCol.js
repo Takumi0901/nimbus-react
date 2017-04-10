@@ -37,7 +37,9 @@ var GridCol = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-grid__col', this.props.size && 'c-grid__col--' + this.props.size + 'of12', this.props.classes) },
+          className: (0, _classnames2.default)('c-grid__col', this.props.size && 'c-grid__col--' + this.props.size + 'of12', this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

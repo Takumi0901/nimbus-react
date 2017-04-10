@@ -66,7 +66,7 @@ class HeroPage extends Component {
 
           <Container size={'full'}>
             <h2>Image</h2>
-            <Hero type={'image'} style={imgStyle} image={'/nimbus-react/public/image/hero.jpg'}>
+            <Hero type={'image'} style={imgStyle}>
               <h2 className="c-text--white">Hero Title</h2>
               <p className="c-text--white u-mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -78,7 +78,7 @@ class HeroPage extends Component {
         backgroundImage: 'url(/nimbus-react/public/image/hero.jpg)',
       }
       return (
-        <Hero type={'image'} style={imgStyle} image={'/nimbus-react/public/image/hero.jpg'}>
+        <Hero type={'image'} style={imgStyle}>
           <h2 className="c-text--white">Hero Title</h2>
           <p className="c-text--white u-mb-0">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -99,6 +99,10 @@ class HeroPage extends Component {
             <tr>
               <th>mt (margin-top)</th>
               <td>large  ||  middle  ||  small</td>
+            </tr>
+            <tr>
+              <th>style</th>
+              <td>any</td>
             </tr>
             </tbody>
           </Table>

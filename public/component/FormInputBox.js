@@ -37,7 +37,9 @@ var FormInputBox = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-form__input-box', this.props.error && 'is-error', this.props.classes) },
+          className: (0, _classnames2.default)('c-form__input-box', this.props.error && 'is-error', this.props.classes),
+          style: this.props.style
+        },
         this.props.children,
         this.props.error && _react2.default.createElement(
           'span',

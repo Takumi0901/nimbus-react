@@ -12,8 +12,9 @@ export default class Grid extends Component{
           this.props.direction && `c-grid--${this.props.direction}`,
           this.props.gutters && `c-grid--gutters`,
           this.props.query && `c-grid--query`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </div>
     )

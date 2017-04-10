@@ -37,7 +37,9 @@ var Container = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-container', this.props.size && 'c-container--' + this.props.size, this.props.fixed && 'c-container--fixed', this.props.classes) },
+          className: (0, _classnames2.default)('c-container', this.props.size && 'c-container--' + this.props.size, this.props.fixed && 'c-container--fixed', this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

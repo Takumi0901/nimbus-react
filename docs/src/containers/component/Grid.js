@@ -82,52 +82,52 @@ class GridPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Grid gutters={true}>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={1}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+        <Grid gutters={true} style={{style}}>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={1} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
 
         <Grid gutters={true}>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
 
         <Grid gutters={true}>
-          <GridCol size={3}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={3}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={3}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={3}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={3} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={3} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={3} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={3} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
 
         <Grid gutters={true}>
-          <GridCol size={4}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={4}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={4}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={4} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={4} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={4} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
 
         <Grid gutters={true}>
-          <GridCol size={5}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={2}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={5}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={5} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={2} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={5} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
 
         <Grid gutters={true}>
-          <GridCol size={6}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={6}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={6} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={6} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
       )
   }`}
@@ -143,9 +143,9 @@ class GridPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Grid gutters={true} query={true}>
-          <GridCol size={6}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
-          <GridCol size={6}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+        <Grid gutters={true} query={true} style={{style}}>
+          <GridCol size={6} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
+          <GridCol size={6} style={{style}}><div style={{background: '#ccc', padding: 10 + 'px'}}>Col</div></GridCol>
         </Grid>
       )
   }`}

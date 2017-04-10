@@ -27,6 +27,7 @@ class Home extends Component {
   render() {
     let imgStyle = {
       backgroundImage: 'url(/nimbus-react/public/image/hero.jpg)',
+      backgroundPosition: '70%'
     }
     return (
       <div>

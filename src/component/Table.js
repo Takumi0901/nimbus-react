@@ -9,7 +9,9 @@ export default class Table extends Component{
           'c-table',
           this.props.type && `c-table--${this.props.type}`,
           this.props.classes
-        )}>
+        )}
+        style={this.props.style}
+      >
         {this.props.children}
       </table>
     )

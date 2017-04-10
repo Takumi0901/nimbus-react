@@ -11,8 +11,7 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 import {
   Avatar,
   Container,
-  Table,
-  TableBody
+  Table
 } from 'nimbus-react'
 
 class AvatarPage extends Component {
@@ -35,7 +34,7 @@ class AvatarPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Avatar size={'medium'}>
+        <Avatar size={'medium'} style={{style}}>
           <img src="image/thumb.jpg" alt=""/>
         </Avatar>
       )
@@ -52,6 +51,10 @@ class AvatarPage extends Component {
               <tr>
                 <th>size</th>
                 <td>small  ||  medium</td>
+              </tr>
+              <tr>
+                <th>style</th>
+                <td>any</td>
               </tr>
             </tbody>
           </Table>

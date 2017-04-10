@@ -37,7 +37,9 @@ var Label = function (_Component) {
       return _react2.default.createElement(
         'span',
         {
-          className: (0, _classnames2.default)('c-label', this.props.color && 'c-label--' + this.props.color, this.props.classes) },
+          className: (0, _classnames2.default)('c-label', this.props.color && 'c-label--' + this.props.color, this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

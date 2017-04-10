@@ -5,10 +5,7 @@ export default class Form extends Component{
   render(){
     return(
       <div
-        className={classNames(
-          'c-form',
-          this.props.classes
-        )}>
+        className={classNames('c-form', this.props.classes)} style={this.props.style}>
         {this.props.children}
       </div>
     )

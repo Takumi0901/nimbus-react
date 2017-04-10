@@ -39,9 +39,9 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Form>
-          <FormTitle required={'必須'}>Input Title</FormTitle>
-          <FormInputBox error={'必須項目'}>
+        <Form style={{style}}>
+          <FormTitle required={'必須'} style={{style}}>Input Title</FormTitle>
+          <FormInputBox error={'必須項目'} style={{style}}>
             <input type="text" placeholder={'Input'}/>
           </FormInputBox>
         </Form>
@@ -65,6 +65,10 @@ class FormPage extends Component {
                 <th>position</th>
                 <td>right</td>
               </tr>
+              <tr>
+                <th>style</th>
+                <td>any</td>
+              </tr>
               </tbody>
             </Table>
           </Container>
@@ -79,8 +83,8 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Form>
-          <FormInputBox>
+        <Form style={{style}}>
+          <FormInputBox style={{style}}>
             <input type="text" placeholder={'Input'}/>
           </FormInputBox>
         </Form>
@@ -98,8 +102,8 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Form>
-          <FormInputBox>
+        <Form style={{style}}>
+          <FormInputBox style={{style}}>
             <textarea cols="30" rows="10"></textarea>
           </FormInputBox>
         </Form>
@@ -123,8 +127,8 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Form>
-          <FormInputBox classes={'c-form__select'}>
+        <Form style={{style}}>
+          <FormInputBox classes={'c-form__select'} style={{style}}>
             <label><select>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -150,8 +154,8 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Form>
-          <FormInputBox>
+        <Form style={{style}}>
+          <FormInputBox style={{style}}>
             <input type="checkbox" name="checkbox" id="c1"/><label htmlFor="c1">checkbox1</label>
             <input type="checkbox" name="checkbox" id="c2"/><label htmlFor="c2">checkbox2</label>
           </FormInputBox>
@@ -172,8 +176,8 @@ class FormPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Form>
-          <FormInputBox>
+        <Form style={{style}}>
+          <FormInputBox style={{style}}>
             <input type="radio" name="radio" id="r1"/><label htmlFor="r1">radio1</label>
             <input type="radio" name="radio" id="r2"/><label htmlFor="r2">radio2</label>
           </FormInputBox>

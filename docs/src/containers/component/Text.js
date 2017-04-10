@@ -10,7 +10,8 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 // components
 import {
   Text,
-  Container
+  Container,
+  Table
 } from 'nimbus-react'
 
 class TextPage extends Component {
@@ -34,13 +35,25 @@ class TextPage extends Component {
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
-        <Text color={false}>Default</Text>
-        <Text color={'primary'}>Primary</Text>
-        <Text color={'secondary'}>Secondary</Text>
-        <Text color={'highlight'}>Highlight</Text>
+        <Text color={false} style={{style}}>Default</Text>
+        <Text color={'primary'} style={{style}}>Primary</Text>
+        <Text color={'secondary'} style={{style}}>Secondary</Text>
+        <Text color={'highlight'} style={{style}}>Highlight</Text>
       )
   }`}
           </SyntaxHighlighter>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <tr>
+                <th>style</th>
+                <td>any</td>
+              </tr>
+            </tr>
+            </tbody>
+          </Table>
         </Container>
       </ComponentPageWrap>
     )

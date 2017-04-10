@@ -11,6 +11,7 @@ import {
   Alert,
   AlertStrongText,
   Container,
+  Table
 } from 'nimbus-react'
 
 import ComponentPageWrap from '../../components/ComponentPageWrap'
@@ -35,12 +36,21 @@ class AlertPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
     return (
-      <Alert>
+      <Alert style={{style}}>
         <AlertStrongText>Sed ut perspiciatis</AlertStrongText> unde omnis iste natus error sit voluptatem
       </Alert>
     )
   }`}
   </SyntaxHighlighter>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <td>any</td>
+            </tr>
+            </tbody>
+          </Table>
         </Container>
       </ComponentPageWrap>
     )

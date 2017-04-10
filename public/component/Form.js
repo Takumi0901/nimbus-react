@@ -37,7 +37,7 @@ var Form = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-form', this.props.classes) },
+          className: (0, _classnames2.default)('c-form', this.props.classes), style: this.props.style },
         this.props.children
       );
     }

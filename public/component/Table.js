@@ -37,7 +37,9 @@ var Table = function (_Component) {
       return _react2.default.createElement(
         'table',
         {
-          className: (0, _classnames2.default)('c-table', this.props.type && 'c-table--' + this.props.type, this.props.classes) },
+          className: (0, _classnames2.default)('c-table', this.props.type && 'c-table--' + this.props.type, this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

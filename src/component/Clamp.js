@@ -8,8 +8,9 @@ export default class Clamp extends Component{
         className={classNames(
           'c-clamp',
           this.props.size && `c-clamp--size-${this.props.size}`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </div>
     )

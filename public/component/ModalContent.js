@@ -36,8 +36,7 @@ var ModalContent = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        {
-          className: (0, _classnames2.default)('c-modal__content', this.props.classes) },
+        { className: (0, _classnames2.default)('c-modal__content', this.props.classes), style: this.props.style },
         _react2.default.createElement(
           'div',
           { className: 'c-modal__content__inner' },

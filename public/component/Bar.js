@@ -36,7 +36,10 @@ var Bar = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: (0, _classnames2.default)('c-bar', this.props.shadow && 'c-bar--shadow-' + this.props.shadow, this.props.size && 'c-bar--' + this.props.size, this.props.fixed && 'c-bar--fixed-' + this.props.fixed, this.props.classes) },
+        {
+          className: (0, _classnames2.default)('c-bar', this.props.shadow && 'c-bar--shadow-' + this.props.shadow, this.props.size && 'c-bar--' + this.props.size, this.props.fixed && 'c-bar--fixed-' + this.props.fixed, this.props.classes),
+          style: this.props.style
+        },
         _react2.default.createElement(
           'div',
           { className: 'c-bar__inner' },

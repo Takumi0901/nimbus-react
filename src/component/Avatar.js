@@ -4,11 +4,13 @@ import classNames from 'classnames'
 export default class Avatar extends Component{
   render(){
     return(
-      <div className={classNames(
+      <div
+        className={classNames(
         'c-avatar',
         this.props.size && `c-avatar--${this.props.size}`,
-        this.props.classes
-      )}>
+        this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </div>
     )

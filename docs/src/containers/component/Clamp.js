@@ -35,7 +35,7 @@ class ClampPage extends Component {
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
-        <Clamp size={2}>
+        <Clamp size={2} style={{style}}>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
           </Clamp>
       )
@@ -48,6 +48,10 @@ class ClampPage extends Component {
             <tr>
               <th>size</th>
               <td>2  ||  3  ||  4  ||  5</td>
+            </tr>
+            <tr>
+              <th>style</th>
+              <td>any</td>
             </tr>
             </tbody>
           </Table>

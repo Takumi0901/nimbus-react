@@ -9,7 +9,9 @@ export default class Text extends Component{
           'c-text',
           this.props.color && `c-text--${this.props.color}`,
           this.props.classes
-        )}>
+        )}
+        style={this.props.style}
+      >
         {this.props.children}
       </span>
     )

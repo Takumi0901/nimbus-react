@@ -35,7 +35,7 @@ class BarPage extends Component {
   <SyntaxHighlighter style={monokai}>
   {`render() {
       return (
-        <Bar shadow={'bottom'} size={'large'} fixed={false}>
+        <Bar shadow={'bottom'} size={'large'} fixed={false} style={{style}}>
           Sed ut perspiciatis
         </Bar>
       )
@@ -56,6 +56,10 @@ class BarPage extends Component {
               <tr>
                 <th>fixed</th>
                 <td>top  ||  bottom</td>
+              </tr>
+              <tr>
+                <th>style</th>
+                <td>any</td>
               </tr>
             </tbody>
           </Table>

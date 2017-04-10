@@ -8,8 +8,9 @@ export default class Modal extends Component{
         className={classNames(
           'c-modal',
           this.props.name === this.props.showModal && `is-fadein`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         <div className="c-modal__panel">
           {this.props.children}
         </div>

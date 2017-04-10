@@ -11,8 +11,7 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 import {
   Label,
   Container,
-  Table,
-  TableBody
+  Table
 } from 'nimbus-react'
 
 class LabelPage extends Component {
@@ -34,11 +33,23 @@ class LabelPage extends Component {
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
-        <Label color={false}>Default</Label>
-        <Label color={'highlight'}>Highlight</Label>
+        <Label color={false} style={{style}}>Default</Label>
+        <Label color={'highlight'} style={{style}}>Highlight</Label>
       )
   }`}
           </SyntaxHighlighter>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <tr>
+                <th>style</th>
+                <td>any</td>
+              </tr>
+            </tr>
+            </tbody>
+          </Table>
         </Container>
       </ComponentPageWrap>
     )

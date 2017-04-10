@@ -14,8 +14,7 @@ import {
   CardBottom,
   CardContent,
   Container,
-  Table,
-  TableBody
+  Table
 } from 'nimbus-react'
 
 class CardPage extends Component {
@@ -46,20 +45,29 @@ class CardPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Card>
-          <CardHeader>
+        <Card style={{style}}>
+          <CardHeader style={{style}}>
             <h3 className="u-mb-0">Title</h3>
           </CardHeader>
-          <CardContent>
+          <CardContent style={{style}}>
             <p className="u-mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia</p>
           </CardContent>
-          <CardBottom>
+          <CardBottom style={{style}}>
             <p className="u-mb-0">Bottom</p>
           </CardBottom>
         </Card>
       )
   }`}
   </SyntaxHighlighter>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <td>any</td>
+            </tr>
+            </tbody>
+          </Table>
         </Container>
       </ComponentPageWrap>
     )

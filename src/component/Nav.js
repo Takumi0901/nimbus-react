@@ -9,8 +9,9 @@ export default class Nav extends Component{
           'c-nav',
           this.props.size && `c-nav--${this.props.size}`,
           this.props.itemLength && `u-cf c-nav--len${this.props.itemLength}`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </ul>
     )

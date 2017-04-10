@@ -37,7 +37,9 @@ var Nav = function (_Component) {
       return _react2.default.createElement(
         'ul',
         {
-          className: (0, _classnames2.default)('c-nav', this.props.size && 'c-nav--' + this.props.size, this.props.itemLength && 'u-cf c-nav--len' + this.props.itemLength, this.props.classes) },
+          className: (0, _classnames2.default)('c-nav', this.props.size && 'c-nav--' + this.props.size, this.props.itemLength && 'u-cf c-nav--len' + this.props.itemLength, this.props.classes),
+          style: this.props.style
+        },
         this.props.children
       );
     }

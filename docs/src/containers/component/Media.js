@@ -11,7 +11,8 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 import {
   Media,
   MediaContent,
-  Container
+  Container,
+  Table
 } from 'nimbus-react'
 
 class MediaPage extends Component {
@@ -42,11 +43,11 @@ class MediaPage extends Component {
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
-        <Media>
-          <MediaContent>
+        <Media style={{style}}>
+          <MediaContent style={{style}}>
             <img src="image/thumb.jpg" alt="" width="150" height="150"/>
           </MediaContent>
-          <MediaContent>
+          <MediaContent style={{style}}>
             <p className="u-mb-0">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
             </p>
@@ -55,6 +56,18 @@ class MediaPage extends Component {
       )
   }`}
           </SyntaxHighlighter>
+          <h2>Modifier</h2>
+          <Table type={'basic'}>
+            <tbody>
+            <tr>
+              <th>style</th>
+              <tr>
+                <th>style</th>
+                <td>any</td>
+              </tr>
+            </tr>
+            </tbody>
+          </Table>
         </Container>
       </ComponentPageWrap>
     )

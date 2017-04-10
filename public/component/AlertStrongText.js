@@ -36,7 +36,7 @@ var AlertStrongText = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'span',
-        { className: (0, _classnames2.default)("c-alert__strong", this.props.classes) },
+        { className: (0, _classnames2.default)("c-alert__strong", this.props.classes), style: this.props.style },
         this.props.children
       );
     }

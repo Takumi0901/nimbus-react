@@ -12,7 +12,7 @@ import { monokai } from 'react-syntax-highlighter/dist/styles'
 import {
   MenuList,
   MenuListItem,
-  Container
+  Container,
 } from 'nimbus-react'
 
 class MenuListPage extends Component {
@@ -38,10 +38,10 @@ class MenuListPage extends Component {
           <SyntaxHighlighter style={monokai}>
             {`render() {
       return (
-        <MenuList>
-          <MenuListItem><Link to="#">Menu1</Link></MenuListItem>
-          <MenuListItem><Link to="#">Menu2</Link></MenuListItem>
-          <MenuListItem><Link to="#">Menu3</Link></MenuListItem>
+        <MenuList style={{style}}>
+          <MenuListItem style={{style}}><Link to="#">Menu1</Link></MenuListItem>
+          <MenuListItem style={{style}}><Link to="#">Menu2</Link></MenuListItem>
+          <MenuListItem style={{style}}><Link to="#">Menu3</Link></MenuListItem>
         </MenuList>
       )
   }`}

@@ -37,8 +37,8 @@ class ButtonPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>Button</Button>
-        <ButtonLink href={'/'} size={false}>Link</ButtonLink>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false} style={{style}}>Button</Button>
+        <ButtonLink href={'/'} size={false} style={{style}}>Link</ButtonLink>
       )
   }`}
             </SyntaxHighlighter>
@@ -51,7 +51,7 @@ class ButtonPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false} style={{style}}>default</Button>
       )
   }`}
             </SyntaxHighlighter>
@@ -68,11 +68,11 @@ class ButtonPage extends Component {
   <SyntaxHighlighter style={monokai}>
     {`render() {
       return (
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'jumbo'}>jumbo</Button>&nbsp;
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'large'}>large</Button>&nbsp;
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false}>default</Button>&nbsp;
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'small'}>small</Button>&nbsp;
-        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'tiny'}>tiny</Button>
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'jumbo'} style={{style}}>jumbo</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'large'} style={{style}}>large</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={false} style={{style}}>default</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'small'} style={{style}}>small</Button>&nbsp;
+        <Button onClickAction={() => {console.log('hgoehgoe')}} size={'tiny'} style={{style}}>tiny</Button>
       )
   }`}
             </SyntaxHighlighter>
@@ -91,7 +91,8 @@ class ButtonPage extends Component {
         <Button
           onClickAction={() => {console.log('hgoehgoe')}}
           size={false}
-          display={'block'}>Button</Button>
+          display={'block'}
+          style={{style}}>Button</Button>
       )
   }`}
             </SyntaxHighlighter>
@@ -107,6 +108,10 @@ class ButtonPage extends Component {
             <tr>
               <th>display</th>
               <td>block</td>
+            </tr>
+            <tr>
+              <th>style</th>
+              <td>any</td>
             </tr>
             </tbody>
           </Table>

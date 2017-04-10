@@ -8,8 +8,9 @@ export default class FormInputBox extends Component{
         className={classNames(
           'c-form__input-box',
           this.props.error && `is-error`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
         {this.props.error &&
         <span className={'c-form__input-box__alert'}>{this.props.error}</span>

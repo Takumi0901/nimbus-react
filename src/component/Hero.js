@@ -12,7 +12,7 @@ export default class Hero extends Component{
           this.props.mt && `c-hero--${this.props.mt}`,
           this.props.classes
         )}
-        style={this.props.style && this.props.style}
+        style={this.props.style}
       >
         <div className="c-hero__inner">
           {this.props.children}

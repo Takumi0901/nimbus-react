@@ -39,7 +39,7 @@ var ButtonLink = function (_Component) {
         {
           href: this.props.href,
           onClick: this.props.onClickAction,
-          style: this.props.style && this.props.style,
+          style: this.props.style,
           className: (0, _classnames2.default)('c-btn', this.props.size && 'c-btn--' + this.props.size, this.props.display && 'c-btn--' + this.props.display, this.props.classes) },
         this.props.children
       );

@@ -42,11 +42,11 @@ class NavPage extends Component {
             <SyntaxHighlighter style={monokai}>
               {`render() {
         return (
-          <Nav size={'medium'}>
-            <NavItem><Link to="#">Nav1</Link></NavItem>
-            <NavItem><Link to="#">Nav2</Link></NavItem>
-            <NavItem><Link to="#">Nav3</Link></NavItem>
-            <NavItem><Link to="#">Nav4</Link></NavItem>
+          <Nav size={'medium'} style={{style}}>
+            <NavItem style={{style}}><Link to="#">Nav1</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav2</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav3</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav4</Link></NavItem>
           </Nav>
         )
     }`}
@@ -65,11 +65,11 @@ class NavPage extends Component {
             <SyntaxHighlighter style={monokai}>
               {`render() {
         return (
-          <Nav size={'medium'} itemLength={4}>
-            <NavItem><Link to="#">Nav1</Link></NavItem>
-            <NavItem><Link to="#">Nav2</Link></NavItem>
-            <NavItem><Link to="#">Nav3</Link></NavItem>
-            <NavItem><Link to="#">Nav4</Link></NavItem>
+          <Nav size={'medium'} itemLength={4} style={{style}}>
+            <NavItem style={{style}}><Link to="#">Nav1</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav2</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav3</Link></NavItem>
+            <NavItem style={{style}}><Link to="#">Nav4</Link></NavItem>
           </Nav>
         )
     }`}
@@ -87,6 +87,10 @@ class NavPage extends Component {
               <tr>
                 <th>itemLength</th>
                 <td>3  ||  4  ||  5</td>
+              </tr>
+              <tr>
+                <th>style</th>
+                <td>any</td>
               </tr>
               </tbody>
             </Table>

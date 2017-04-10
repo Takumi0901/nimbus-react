@@ -92,12 +92,12 @@ class ModalPage extends Component {
         <h1>Modal</h1>
         <Button onClickAction={() => {this.props.changeModal('sample')}} color={'primary'} size={false}>Modal Open</Button>
 
-        <Modal name={'sample'} showModal={showModal}>
-          <ModalHeader>Modal Title</ModalHeader>
-          <ModalContent>
+        <Modal name={'sample'} showModal={showModal} style={{style}}>
+          <ModalHeader style={{style}}>Modal Title</ModalHeader>
+          <ModalContent style={{style}}>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
           </ModalContent>
-          <ModalBottom>
+          <ModalBottom style={{style}}>
             <Button onClickAction={() => {this.props.changeModal(false)}} color={false} size={false}>Close</Button>
           </ModalBottom>
         </Modal>

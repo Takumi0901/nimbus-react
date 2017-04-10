@@ -8,8 +8,9 @@ export default class Label extends Component{
         className={classNames(
           'c-label',
           this.props.color && `c-label--${this.props.color}`,
-          this.props.classes
-        )}>
+          this.props.classes)}
+        style={this.props.style}
+      >
         {this.props.children}
       </span>
     )

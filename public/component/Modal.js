@@ -37,7 +37,9 @@ var Modal = function (_Component) {
       return _react2.default.createElement(
         'div',
         {
-          className: (0, _classnames2.default)('c-modal', this.props.name === this.props.showModal && 'is-fadein', this.props.classes) },
+          className: (0, _classnames2.default)('c-modal', this.props.name === this.props.showModal && 'is-fadein', this.props.classes),
+          style: this.props.style
+        },
         _react2.default.createElement(
           'div',
           { className: 'c-modal__panel' },

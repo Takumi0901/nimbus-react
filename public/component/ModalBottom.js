@@ -36,8 +36,7 @@ var ModalBottom = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        {
-          className: (0, _classnames2.default)('c-modal__bottom', this.props.classes) },
+        { className: (0, _classnames2.default)('c-modal__bottom', this.props.classes), style: this.props.style },
         this.props.children
       );
     }

@@ -6,13 +6,13 @@ export default class Button extends Component{
     return(
       <button
         onClick={this.props.onClickAction}
-        style={this.props.style && this.props.style}
+        style={this.props.style}
         className={classNames(
         'c-btn',
         this.props.size && `c-btn--${this.props.size}`,
         this.props.display && `c-btn--${this.props.display}`,
-        this.props.classes
-      )}>
+        this.props.classes)}
+      >
           {this.props.children}
       </button>
     )

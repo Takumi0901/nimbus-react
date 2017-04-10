@@ -37,7 +37,7 @@ var FormTitle = function (_Component) {
       return _react2.default.createElement(
         'h3',
         {
-          className: (0, _classnames2.default)('c-form__title', this.props.classes) },
+          className: (0, _classnames2.default)('c-form__title', this.props.classes), style: this.props.style },
         this.props.children,
         this.props.required && _react2.default.createElement(
           'span',

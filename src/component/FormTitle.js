@@ -5,10 +5,7 @@ export default class FormTitle extends Component{
   render(){
     return(
       <h3
-        className={classNames(
-          'c-form__title',
-          this.props.classes
-        )}>
+        className={classNames('c-form__title', this.props.classes)} style={this.props.style}>
         {this.props.children}
         {this.props.required &&
           <span className={classNames(
